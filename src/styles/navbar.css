@@ -1,3 +1,11 @@
 .nav1{
-    height: 50px;
+    height: 100px;
+}
+
+.logomargin{
+    margin-left: 50px;
+}
+
+.navmargin{
+    margin-left: 300px;
 }
