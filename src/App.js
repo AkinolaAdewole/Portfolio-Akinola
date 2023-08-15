@@ -1,12 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Router as BrowserRouter, Route } from "react-router-dom"
+import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import About from './components/About';
+import NavBar from './ReUsables/NavBar';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+  
+  <NavBar />
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+      </Routes>
+       
+      
+  
     </div>
   );
 }

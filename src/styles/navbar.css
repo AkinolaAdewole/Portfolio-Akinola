@@ -1,3 +1,10 @@
+.bg{
+    background: url('../pics/port1.png');
+    min-height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .nav1{
     height: 100px;
 }
@@ -9,3 +16,16 @@
 .navmargin{
     margin-left: 300px;
 }
+
+.passion{
+    width: 600px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .nav1{
+        /* height: 5px; */
+        width: 100%;
+    }
+    
+  }
