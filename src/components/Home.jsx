@@ -28,9 +28,17 @@ const Home = () => {
      
      <section className='section2'>
        <div> <h3 className='textAlign pt-5'>Some of my projects</h3> </div>
-
-       <div></div>
+       
+       <div className=''></div>
      </section>
+
+          {/* contact */}
+
+    <section className='section3'></section>
+
+    <footer>
+      <div></div>
+    </footer>
   
     </>
   )

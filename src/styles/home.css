@@ -47,6 +47,16 @@ h4 {
     text-align: center;
 }
 
+.transition1{
+    transition-delay: 3s;
+}
+
+footer{
+    background: #033953;
+    padding-bottom: 30px;
+    height: 210px;
+}
+
 @media only screen and (max-width: 993px) {
    .flex1{
     display: flex;
