@@ -1,29 +1,49 @@
-.bg{
-    background: url('../pics/port1.png');
-    min-height: 500px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.nav1{
-    height: 100px;
-}
-
-.logomargin{
-    margin-left: 50px;
-}
-
-.navmargin{
-    margin-left: 300px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
-
-
-@media only screen and (max-width: 600px) {
-    .nav1{
-        /* height: 5px; */
+@media only screen and (min-width: 800px) {
+ 
+    .bg{
+        background: url('../pics/port1.png');
+        min-height: 500px;
         width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    .nav1{
+        height: 100px;
+    }
+    
+    .logomargin{
+        margin-left: 50px;
+    }
+    
+    .navmargin{
+        margin-left: 300px;
     }
     
   }
+
+
+  @media screen and (max-width: 790px){
+  
+
+    .bg{
+        background: url('../pics/port1.png');
+        height: 500px;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        
+
+    }
+  }
+
+
+
