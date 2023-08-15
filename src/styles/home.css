@@ -51,6 +51,15 @@ h4 {
     transition-delay: 3s;
 }
 
+.section3{
+    height: 500px;
+}
+
+.divcontact{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 footer{
     background: #033953;
     padding-bottom: 30px;
@@ -64,3 +73,5 @@ footer{
    }
     
   }
+
+  

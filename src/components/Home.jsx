@@ -34,7 +34,9 @@ const Home = () => {
 
           {/* contact */}
 
-    <section className='section3'></section>
+    <section className='section3'>
+      <div className='divcontact'></div>
+    </section>
 
     <footer>
       <div></div>
