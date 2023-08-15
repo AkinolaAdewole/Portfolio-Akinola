@@ -52,13 +52,15 @@ h4 {
 }
 
 .section3{
-    height: 500px;
+    height: 510px;
 }
 
 .divcontact{
     height: 440px;
+    width: 450px;
     background-color: wheat;
-    padding-top: 20px;
+    margin: auto;
+    /* padding-top: 30px; */
     /* padding-bottom: 10px; */
 }
 
