@@ -57,11 +57,14 @@ h4 {
 
 .divcontact{
     height: 440px;
-    width: 450px;
+    width: 850px;
     background-color: wheat;
     margin: auto;
-    /* padding-top: 30px; */
-    /* padding-bottom: 10px; */
+}
+
+.divh5{
+    font-size: 2.28rem;
+    line-height: 110%;
 }
 
 footer{
