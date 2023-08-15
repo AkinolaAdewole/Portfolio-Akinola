@@ -1,8 +1,12 @@
 .home1{
     background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
+    min-height: 400px;
 }
 
 .passion{
-    width: 600px;
+    width: 800px;
+}
+.flex1{
+    display: flex;
 }
 
