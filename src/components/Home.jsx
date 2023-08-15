@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <>
       <div className='home1' >
-
         <div className='passion mx-auto'>
            <div className=' '>
               <h4 className='text-center'>About me</h4>
@@ -24,9 +23,14 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className='bg'>
-       
-      </div> */}
+           
+           {/* Some of my Projects */}
+     
+     <section className='section2'>
+       <div> <h3 className='textAlign pt-5'>Some of my projects</h3> </div>
+
+       <div></div>
+     </section>
   
     </>
   )

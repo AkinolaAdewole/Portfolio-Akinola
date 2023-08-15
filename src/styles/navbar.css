@@ -39,9 +39,9 @@
         background: url('../pics/port1.png');
         height: 500px;
         background-repeat: no-repeat;
-        /* background-size: cover; */
+        width: 100;
+        background-size: auto;
         
-
     }
   }
 

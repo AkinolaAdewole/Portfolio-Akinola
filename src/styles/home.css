@@ -38,6 +38,15 @@ h4 {
 }
 
 
+.section2{
+    background: linear-gradient(rgb(255, 255, 255) 14.36%, rgb(237, 222, 247) 74.67%);
+    outline: none;
+}
+
+.textAlign{
+    text-align: center;
+}
+
 @media only screen and (max-width: 993px) {
    .flex1{
     display: flex;
