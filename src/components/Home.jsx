@@ -1,6 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/home.css'
 import akinola from '../pics/akinola.jpg'
+import Whatsapp1 from '../pics/WhatsApp1.jpg'
+
 
 const Home = () => {
   return (
@@ -40,7 +43,18 @@ const Home = () => {
           <h5 className='textAlign divh5'> Have an interesting project? </h5> 
         </div>
         <div> <p className='textAlign'> I know you've got that amazing idea, contact me today. </p> </div>
+
+
+        <div>
+         <div className='contact1'> <Link to="https://wa.me/+2348144744865"> Click</Link> let's chat on whatsapp 
+            <br /> to discuss further.
+         </div>
+
+        <div></div>
       </div>
+      </div>
+
+      
     </section>
 
     <footer>
