@@ -119,6 +119,12 @@ const Home = () => {
 
               <div className='contact1'>
                   <div className='contactme'>
+                       <h5>
+                          Call +2348144744865
+                       </h5>
+
+                       <h5> or</h5>
+
                       <h5>
                         <Link to="https://wa.me/+2348144744865"> Click</Link> let's chat on whatsapp 
                         <br /> to discuss further.
