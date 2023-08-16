@@ -108,8 +108,14 @@ h4 {
 
 footer{
     background: #033953;
-    padding-bottom: 30px;
-    height: 210px;
+    /* padding-bottom: 30px; */
+    height: 260px;
+}
+
+.footercontainer{
+    background-color: blueviolet;
+    height: 180px;
+    width: 800px;
 }
 
 

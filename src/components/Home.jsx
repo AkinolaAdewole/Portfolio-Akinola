@@ -144,7 +144,7 @@ const Home = () => {
 
     <footer>
     {/* <i class="fa-brands fa-github"></i> */}
-      <div className='container'></div>
+      <div className='container footercontainer'></div>
     </footer>
   
     </>
