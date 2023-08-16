@@ -24,7 +24,7 @@ const Home = () => {
                   <div className='flex1 pt-5'>
 
                     <div>
-                        <div className=''> 
+                        <div className='aboutme'> 
                             <h5 className=''> 
                               Welcome to my creative space where ideas come <br /> to life through design and innovation.
                             </h5>
@@ -144,7 +144,7 @@ const Home = () => {
 
     <footer>
     {/* <i class="fa-brands fa-github"></i> */}
-      <div></div>
+      <div className='container'></div>
     </footer>
   
     </>
