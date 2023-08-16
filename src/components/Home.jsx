@@ -35,7 +35,7 @@ const Home = () => {
        <div className=''></div>
      </section>
 
-          {/* contact */}
+          {/* contact me for project*/}
 
     <section className='section3'>
       <div className='divcontact'>
@@ -45,13 +45,16 @@ const Home = () => {
         <div> <p className='textAlign'> I know you've got that amazing idea, contact me today. </p> </div>
 
 
-        <div>
-         <div className='contact1'> <Link to="https://wa.me/+2348144744865"> Click</Link> let's chat on whatsapp 
-            <br /> to discuss further.
-         </div>
+        <div className='flex1'>
+            <div className='contact1'>
+              <h5>
+                <Link to="https://wa.me/+2348144744865"> Click</Link> let's chat on whatsapp 
+                <br /> to discuss further.
+              </h5>
+            </div>
 
-        <div></div>
-      </div>
+              <div className=''> <img className='img2' src={Whatsapp1}  alt="" /></div>
+        </div>
       </div>
 
       
