@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/home.css'
 import akinola from '../pics/akinola.jpg'
 import Whatsapp1 from '../pics/WhatsApp1.jpg'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 const Home = () => {
+  useEffect(()=>{
+    Aos.init()
+  },[])
   return (
     <>
       <div className='home1' >
@@ -19,7 +24,7 @@ const Home = () => {
                         <h5 className='mt-3'>I design and code beautifully and I love what I do.</h5>
                     </div>
 
-                    <div className='delay'> <img className='img1' src={akinola}  /></div>
+                    <div className='' data-aos="fade-left" data-aos-duration="300o" > <img className='img1' src={akinola}  /></div>
                  </div>
                 </div>
            </div>
@@ -29,32 +34,60 @@ const Home = () => {
            
            {/* Some of my Projects */}
      
-     <section className='section2'>
+     <section className='section2 mb'>
        <div> <h3 className='textAlign pt-5'>Some of my projects</h3> </div>
        
-       <div className=''>
-              <div>
-                    <div class="card" style="width: 18rem;">
-                      <img src="" alt=""  class="card-img-top"/>
-                        <div class="card-body">
-                          <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                          </p>
-                        </div>
-                    </div>
+
+           <div className='mb' >
+
+              <div className='flex1'>
+
+                  <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="3000">
+                              <img src="" alt=""  className="card-img-top"/>
+                                <div className="card-body">
+                                  <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                  </p>
+                                </div>
+                  </div>
+
+                   <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="3000">
+                              <img src="" alt=""  className="card-img-top"/>
+                                <div className="card-body">
+                                  <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                  </p>
+                                </div>
+                   </div>
+                  
               </div>
 
-              <div>
-                    <div class="card" style="width: 18rem;">
-                      <img src="" alt=""  class="card-img-top"/>
-                        <div class="card-body">
-                          <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content.
-                          </p>
-                        </div>
-                    </div>
-              </div>
-       </div>
+
+              <div className="flex1 mt">
+                  <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="3000">
+                              <img src="" alt=""  className="card-img-top"/>
+                                <div className="card-body">
+                                  <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                  </p>
+                                </div>
+                  </div>
+
+                   <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="3000">
+                              <img src="" alt=""  className="card-img-top"/>
+                                <div className="card-body">
+                                  <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                  </p>
+                                </div>
+                   </div>
+           </div>
+
+           </div>
+
+
+
+
      </section>
 
 

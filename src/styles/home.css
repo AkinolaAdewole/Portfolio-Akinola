@@ -39,16 +39,35 @@ h4 {
 
 
 .section2{
-    background: linear-gradient(rgb(255, 255, 255) 14.36%, rgb(237, 222, 247) 74.67%);
+    background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
     outline: none;
+    /* height: 2000px; */
 }
+
+
+ .projectcard{
+    height: 26rem;
+    width: 38rem;
+ }
+
+ .mt{
+    margin-top: 40px;
+ }
+
+ .mb{
+    margin-bottom: 40px;
+ }
+
+ .m1{
+    margin-left: 130px;
+ }
+
+ .m2{
+    margin-left: 20px;
+ }
 
 .textAlign{
     text-align: center;
-}
-
-.transition1{
-    transition-delay: 3s;
 }
 
 .section3{
