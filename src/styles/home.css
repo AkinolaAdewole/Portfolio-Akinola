@@ -47,7 +47,7 @@ h4 {
 
  .projectcard{
     height: 26rem;
-    width: 38rem;
+    width: 32rem;
  }
 
  .mt{
@@ -59,11 +59,15 @@ h4 {
  }
 
  .m1{
-    margin-left: 130px;
+    margin-left: 180px;
  }
 
  .m2{
     margin-left: 20px;
+ }
+
+ .contactme{
+    margin-top: 70px;
  }
 
 .textAlign{
@@ -88,8 +92,8 @@ h4 {
 
 .contact1{
    background-color: wheat;
-   height: 200px;
-   width: 400px;
+   height: 220px;
+   width: 450px;
    margin-left: 100px;
 }
 

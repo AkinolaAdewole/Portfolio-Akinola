@@ -9,8 +9,11 @@ import 'aos/dist/aos.css'
 
 const Home = () => {
   useEffect(()=>{
-    Aos.init()
-  },[])
+    Aos.init({
+      easing: 'ease-in-out-back'
+    })
+  },[]);
+
   return (
     <>
       <div className='home1' >
@@ -19,12 +22,17 @@ const Home = () => {
               <h4 className='text-center'>About me</h4>
                 <div className='row'>
                   <div className='flex1 pt-5'>
+
                     <div>
-                        <h5> Welcome to my creative space where ideas come <br /> to life through design and innovation.</h5>
-                        <h5 className='mt-3'>I design and code beautifully and I love what I do.</h5>
+                        <div className=''> 
+                            <h5 className=''> 
+                              Welcome to my creative space where ideas come <br /> to life through design and innovation.
+                            </h5>
+                            <h5 className='mt-3'>I design and code beautifully and I love what I do.</h5>
+                        </div>
                     </div>
 
-                    <div className='' data-aos="fade-left" data-aos-duration="300o" > <img className='img1' src={akinola}  /></div>
+                    <div className='' data-aos="fade-left" data-aos-duration="3000" > <img className='img1' src={akinola}  /></div>
                  </div>
                 </div>
            </div>
@@ -38,7 +46,7 @@ const Home = () => {
        <div> <h3 className='textAlign pt-5'>Some of my projects</h3> </div>
        
 
-           <div className='mb' >
+           <div className='mt' >
 
               <div className='flex1'>
 
@@ -110,10 +118,12 @@ const Home = () => {
           <div className='flex1 pt-5'>
 
               <div className='contact1'>
-                <h5>
-                  <Link to="https://wa.me/+2348144744865"> Click</Link> let's chat on whatsapp 
-                  <br /> to discuss further.
-                </h5>
+                  <div className='contactme'>
+                      <h5>
+                        <Link to="https://wa.me/+2348144744865"> Click</Link> let's chat on whatsapp 
+                        <br /> to discuss further.
+                      </h5>
+                  </div>
               </div>
 
                 <div className=''> 
