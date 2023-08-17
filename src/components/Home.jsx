@@ -46,11 +46,8 @@ const Home = () => {
         
         <section className='section2 mb'>
 
-          
-
                <div> <h3 className='textAlign pt-5'>Some of my projects</h3> </div>
                 
-          {/* <div className='container projectcontainer'> */}
               <div className='mt' >
 
                     <div className='flex1'>
@@ -96,9 +93,6 @@ const Home = () => {
 
               </div>
 
-
-          {/* </div> */}
-
         </section>
 
 
@@ -107,42 +101,44 @@ const Home = () => {
 
           {/* contact me for project*/}
 
-    <section className='section3'>
+            <section className='section3'>
 
-        <div className='divcontact'>
+              <div className='divcontact'>
 
-         <div className='pt-3' > 
-              <h5 className='textAlign divh5'> Have an interesting project? </h5> 
-         </div>
+                    <div className='pt-3' > 
+                          <h5 className='textAlign divh5'> Have an interesting project? </h5> 
+                    </div>
 
-          <div> <p className='textAlign'> I know you've got that amazing idea, contact me today. </p> </div>
+                    <div> <p className='textAlign'> I know you've got that amazing idea, contact me today. </p> </div>
 
 
-          <div className='flex1 pt-5'>
+                    <div className='flex1 pt-5'>
 
-              <div className='contact1'>
-                  <div className='contactme'>
-                       <h5>
-                          Call +2348144744865
-                       </h5>
+                        <div className='contact1'>
+                            <div className='contactme'>
+                                <h5>
+                                    Call +2348144744865
+                                </h5>
 
-                       <h5> or</h5>
+                                <h5> or</h5>
 
-                      <h5>
-                        <Link to="https://wa.me/+2348144744865"> Click</Link> let's chat on whatsapp 
-                        <br /> to discuss further.
-                      </h5>
-                  </div>
+                                <h5>
+                                  <Link to="https://wa.me/+2348144744865"> Click</Link>, let's chat on whatsapp 
+                                  <br /> to discuss further.
+                                </h5>
+                            </div>
+                        </div>
+
+
+                        <div className=''> 
+                            <img className='img2' src={Whatsapp1}  alt="" />
+                        </div>
+
+                    </div>
               </div>
+              
+            </section>
 
-                <div className=''> 
-                    <img className='img2' src={Whatsapp1}  alt="" />
-                </div>
-
-          </div>
-        </div>
-      
-    </section>
 
 
     <footer>

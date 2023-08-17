@@ -70,11 +70,6 @@ h4 {
     margin-left: 20px;
  }
 
- .contactme{
-    margin-top: 70px;
-    margin-left: 40px;
- }
-
 .textAlign{
     text-align: center;
 }
@@ -86,7 +81,7 @@ h4 {
 .divcontact{
     height: 480px;
     width: 900px;
-    background-color: whitesmoke;
+    background-color: white;
     margin: auto;
 }
 
@@ -101,6 +96,11 @@ h4 {
    width: 450px;
    margin-left: 100px;
 }
+
+.contactme{
+    margin-top: 70px;
+    margin-left: 40px;
+ }
 
 .img2{
     height: 250px;
@@ -122,6 +122,11 @@ footer{
 
 
 @media only screen and (max-width: 992px) {
+    .home1{
+        background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
+        height: 700px;
+    }
+
    .flex1{
     display: flex;
     flex-direction: column;
@@ -155,6 +160,42 @@ footer{
      .m2{
         margin-top: 40px;
      }
+
+     .textAlign{
+        text-align: center;
+    }
+
+    .divcontact{
+        height: 800px;
+        width: 100%;
+        background-color: white;
+        /* margin: auto; */
+    }
+
+    .section3{
+        height: 800px;
+        width: 85%;
+    }
+
+    .contact1{
+        background-color: wheat;
+        height: 220px;
+        width: 300px;
+        margin-left: auto;
+     }
+
+    .contactme{
+        margin-top: 70px;
+       margin-left: 10px;
+     }
+
+     footer{
+        background: #033953;
+        /* padding-bottom: 30px; */
+        height: 290px;
+        margin-top: 50px;
+    }
+
   }
 
   
