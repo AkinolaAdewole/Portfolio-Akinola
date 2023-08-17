@@ -109,13 +109,14 @@ h4 {
 footer{
     background: #033953;
     /* padding-bottom: 30px; */
-    height: 260px;
+    height: 290px;
 }
 
 .footercontainer{
     background-color: blueviolet;
-    height: 180px;
-    width: 800px;
+    height: 250px;
+    width: 900px;
+    margin: auto;
 }
 
 

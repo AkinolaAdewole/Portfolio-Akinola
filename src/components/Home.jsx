@@ -72,7 +72,7 @@ const Home = () => {
 
 
               <div className="flex1 mt">
-                  <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="3000">
+                  <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="2000">
                               <img src="" alt=""  className="card-img-top"/>
                                 <div className="card-body">
                                   <p class="card-text">
@@ -81,7 +81,7 @@ const Home = () => {
                                 </div>
                   </div>
 
-                   <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="3000">
+                   <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="2s000">
                               <img src="" alt=""  className="card-img-top"/>
                                 <div className="card-body">
                                   <p class="card-text">
@@ -144,7 +144,7 @@ const Home = () => {
 
     <footer>
     {/* <i class="fa-brands fa-github"></i> */}
-      <div className='container footercontainer'></div>
+      <div className='footercontainer pt-3'></div>
     </footer>
   
     </>
