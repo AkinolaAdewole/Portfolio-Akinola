@@ -131,6 +131,30 @@ footer{
     width: 85%;
     padding-top: 30px;
    }
+
+   .section2{
+    background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
+    outline: none;
+    /* height: 2000px; */
+    }
+
+    .projectcontainer{
+        box-sizing: border-box;
+    }
+
+    .projectcard{
+        height: 26rem;
+        width: 350px;
+        margin-left:30px
+     }
+
+     .m1{
+        margin-top: 5px;
+     }
+    
+     .m2{
+        margin-top: 40px;
+     }
   }
 
   
