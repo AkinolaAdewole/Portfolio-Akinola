@@ -121,12 +121,16 @@ footer{
 
 
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 992px) {
    .flex1{
     display: flex;
     flex-direction: column;
    }
     
+   .passion{
+    width: 85%;
+    padding-top: 30px;
+   }
   }
 
   

@@ -5,10 +5,10 @@
 }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 993px) {
  
     .bg{
-        background: url('../pics/port1.png');
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../pics/port1.png');
         min-height: 500px;
         width: 100%;
         background-repeat: no-repeat;
@@ -20,9 +20,13 @@
     .nav1{
         height: 100px;
     }
-    
+
     .logomargin{
-        margin-left: 50px;
+        margin-left: 280px;
+    }
+
+    .navpadding{
+        padding-left: 300px;
     }
     
     .navmargin{
@@ -36,16 +40,19 @@
 
 
   
-  @media screen and (max-width: 790px){
+  @media screen and (max-width: 992px){
   
 
     .bg{
-        background: url('../pics/port1.png');
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../pics/port1.png');
         height: 500px;
         background-repeat: no-repeat;
         width: 100;
         background-size: auto;
-        
+    }
+
+    .logomargin{
+        margin-left: 20px;
     }
   }
 

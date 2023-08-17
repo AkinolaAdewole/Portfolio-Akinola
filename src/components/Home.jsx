@@ -32,7 +32,9 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className='' data-aos="fade-left" data-aos-duration="3000" > <img className='img1' src={akinola}  /></div>
+                      <div className='' data-aos="fade-left" data-aos-duration="3000" >
+                        <img className='img1' src={akinola}  />
+                      </div>
                  </div>
                 </div>
            </div>
