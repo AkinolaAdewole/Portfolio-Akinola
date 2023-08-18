@@ -36,6 +36,9 @@ h4 {
 .aboutme{
     margin-top: 50px;
 }
+.pt5{
+    padding-top: 30px;
+}
 
 .delay{
     transition-delay: 2s;
@@ -121,7 +124,7 @@ footer{
 
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 480px) {
     .home1{
         background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
         height: 700px;
@@ -137,12 +140,19 @@ footer{
     padding-top: 30px;
    }
 
+   .pt5{
+    padding-top: 5px;
+}
+
    .section2{
     background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
     outline: none;
     /* height: 2000px; */
     }
 
+    .imgpadding{
+        margin-top: 40px;
+    }
     .projectcontainer{
         box-sizing: border-box;
     }

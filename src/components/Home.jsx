@@ -21,7 +21,7 @@ const Home = () => {
            <div className=' '>
               <h4 className='text-center'>About me</h4>
                 <div className='row'>
-                  <div className='flex1 pt-5'>
+                  <div className='flex1 pt5'>
 
                     <div>
                         <div className='aboutme'> 
@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
 
                       <div className='' data-aos="fade-left" data-aos-duration="3000" >
-                        <img className='img1' src={akinola}  />
+                        <img className='img1 imgpadding' src={akinola}  />
                       </div>
                  </div>
                 </div>
@@ -143,7 +143,17 @@ const Home = () => {
 
     <footer>
     {/* <i class="fa-brands fa-github"></i> */}
-      <div className='footercontainer pt-3'></div>
+      <div className='footercontainer pt-3'>
+         <div>
+          <div>
+            <h6> Recent works</h6>
+            <p><Link>Real Estate</Link> </p>
+            <p><Link>Promptopia</Link></p>
+          </div>
+
+          <div></div>
+         </div>
+      </div>
     </footer>
   
     </>
