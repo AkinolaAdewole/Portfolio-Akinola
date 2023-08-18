@@ -11,11 +11,21 @@ import {AiOutlineMail}  from 'react-icons/ai'
 
 
 const Home = () => {
+
+  const currentYear = new Date().getFullYear();
+
   useEffect(()=>{
     Aos.init({
       easing: 'ease-in-out-back'
     })
   },[]);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   return (
     <>
@@ -84,7 +94,7 @@ const Home = () => {
                                  </div>
                            </div>
 
-                            <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="2s000">
+                            <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="2000">
                                     <img src="" alt=""  className="card-img-top"/>
                                   <div className="card-body">
                                         <p class="card-text">
@@ -119,15 +129,15 @@ const Home = () => {
 
                         <div className='contact1'>
                             <div className='contactme'>
-                                <h5>
+                                <h5 className='text-success'>
                                     Call +2348144744865
                                 </h5>
 
-                                <h5> or</h5>
+                                <h5 className='text-success'> or</h5>
 
-                                <h5>
-                                  <Link to="https://wa.me/+2348144744865"> Click</Link>, let's chat on whatsapp 
-                                  <br /> to discuss further.
+                                <h5 className='text-success'>
+                                  <Link to="https://wa.me/+2348144744865" className='text-success'> Click</Link>, let's chat on whatsapp to discuss
+                                     <br /> further.
                                 </h5>
                             </div>
                         </div>
@@ -157,15 +167,21 @@ const Home = () => {
                     <div className='connectme'>
                       <h6 className='text-white'>Connect with me</h6>
                       <div>
-                        <Link className=''> <BsWhatsapp /> </Link>
-                        <Link className='ms-2'><AiOutlineGithub /> </Link>
-                        <Link className='ms-2'> <AiOutlineMail /></Link>
+                        <Link className='text-success'> <BsWhatsapp /> </Link>
+                        <Link className='ms-2 text-success'><AiOutlineGithub /> </Link>
+                        <Link className='ms-2 text-success'> <AiOutlineMail /></Link>
                       </div>
                     </div>
             </div>
 
                     {/* All right reserved */}
-            <div className='container '></div>
+            <div className='container rightreserved'>
+              <p className='text-white'>&copy; {currentYear} Akinola. All rights reserved.</p>
+
+              <button>
+                <span>::Before</span>
+              </button>
+            </div>
       </div>
     </footer>
   

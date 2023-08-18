@@ -116,7 +116,7 @@ footer{
 }
 
 .footercontainer{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 200px;
     width: 1040px;
     margin: auto;
