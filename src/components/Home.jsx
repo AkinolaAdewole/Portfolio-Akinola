@@ -5,6 +5,9 @@ import akinola from '../pics/akinola.jpg'
 import Whatsapp1 from '../pics/WhatsApp1.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import {BsWhatsapp} from 'react-icons/bs'
+import {AiOutlineGithub} from 'react-icons/ai'
+import {AiOutlineMail}  from 'react-icons/ai'
 
 
 const Home = () => {
@@ -144,20 +147,21 @@ const Home = () => {
     <footer>
    
       <div className='footercontainer pt-3'>
-            <div>
-                <div>
-                  <h5 className='text-white'> Recent works</h5>
-                  <Link  className='text-decoration-none text-white'>Real Estate</Link> <br />
-                  <Link className='text-decoration-none text-white'>Promptopia</Link>
-                </div>
-
-                <div>
-                  <h6 className='text-white'>connect with me</h6>
+            <div className='flex1 mt-3'>
                   <div>
-                    <Link> <i class="fa fa-whatsapp" aria-hidden="true"></i></Link>
-                    <Link> <i class="fa-brands fa-github"></i> </Link> 
+                    <h5 className='text-white'> Recent works</h5>
+                    <Link  className='text-decoration-none text-white'>Real Estate</Link> <br />
+                    <Link className='text-decoration-none text-white'>Promptopia</Link>
                   </div>
-                </div>
+
+                    <div>
+                      <h6 className='text-white'>connect with me</h6>
+                      <div>
+                        <Link> <BsWhatsapp /> </Link>
+                        <Link><AiOutlineGithub /> </Link>
+                        <Link> <AiOutlineMail /></Link>
+                      </div>
+                    </div>
             </div>
       </div>
     </footer>
