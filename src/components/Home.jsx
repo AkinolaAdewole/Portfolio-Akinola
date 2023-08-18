@@ -144,20 +144,21 @@ const Home = () => {
     <footer>
    
       <div className='footercontainer pt-3'>
-         <div>
-          <div>
-            <h5> Recent works</h5>
-            <p><Link  className='text-decoration-none text-white'>Real Estate</Link> </p>
-            <p> <Link className='text-decoration-none text-white'>Promptopia</Link></p>
-          </div>
-
-          <div>
-            <h6>connect with me</h6>
             <div>
-              <Link> <i class="fa-brands fa-github"></i> </Link> 
+                <div>
+                  <h5 className='text-white'> Recent works</h5>
+                  <Link  className='text-decoration-none text-white'>Real Estate</Link> <br />
+                  <Link className='text-decoration-none text-white'>Promptopia</Link>
+                </div>
+
+                <div>
+                  <h6 className='text-white'>connect with me</h6>
+                  <div>
+                    <Link> <i class="fa fa-whatsapp" aria-hidden="true"></i></Link>
+                    <Link> <i class="fa-brands fa-github"></i> </Link> 
+                  </div>
+                </div>
             </div>
-          </div>
-         </div>
       </div>
     </footer>
   
