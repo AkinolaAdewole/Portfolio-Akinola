@@ -147,22 +147,25 @@ const Home = () => {
     <footer>
    
       <div className='footercontainer pt-3'>
-            <div className='flex1 mt-3'>
+            <div className='flex1 mt5'>
                   <div>
                     <h5 className='text-white'> Recent works</h5>
                     <Link  className='text-decoration-none text-white'>Real Estate</Link> <br />
                     <Link className='text-decoration-none text-white'>Promptopia</Link>
                   </div>
 
-                    <div>
-                      <h6 className='text-white'>connect with me</h6>
+                    <div className='connectme'>
+                      <h6 className='text-white'>Connect with me</h6>
                       <div>
-                        <Link> <BsWhatsapp /> </Link>
-                        <Link><AiOutlineGithub /> </Link>
-                        <Link> <AiOutlineMail /></Link>
+                        <Link className=''> <BsWhatsapp /> </Link>
+                        <Link className='ms-2'><AiOutlineGithub /> </Link>
+                        <Link className='ms-2'> <AiOutlineMail /></Link>
                       </div>
                     </div>
             </div>
+
+                    {/* All right reserved */}
+            <div className='container '></div>
       </div>
     </footer>
   
