@@ -175,16 +175,18 @@ const Home = () => {
                       </div>
                     </div>
             </div>
-
-                    {/* All right reserved */}
-            <div className='container rightreserved'>
-              <p className='text-white'>&copy; {currentYear} Akinola. All rights reserved.</p>
-
-              <button onClick={scrollToTop}>
-                <span> < BiSolidToTop /></span>
-              </button>
-            </div>
       </div>
+
+
+                {/* All right reserved */}
+            <div className='rightReserved flex2'>
+                   <p className='text-white'>&copy; {currentYear} Akinola. All rights reserved.</p>
+
+                  <button onClick={scrollToTop} className='scrollToTop'>
+                    <span> < BiSolidToTop /></span>
+                  </button>
+            </div>
+            
     </footer>
   
     </>

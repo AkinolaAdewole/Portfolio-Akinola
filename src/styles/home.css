@@ -19,6 +19,10 @@
     /* flex-direction: column; */
 }
 
+.flex2{
+    display: flex;
+}
+
 .img1{
     height: 200px;
     width: 200px;
@@ -112,12 +116,12 @@ h4 {
 footer{
     background: #033953;
     /* padding-bottom: 30px; */
-    height: 218px;
+    height: 220px;
 }
 
 .footercontainer{
     /* background-color: blueviolet; */
-    height: 200px;
+    height: 150px;
     width: 1040px;
     margin: auto;
 }
@@ -130,9 +134,18 @@ footer{
     margin-top: 25px;
 }
 
-.rightreserved{
-    margin-top: 30px;
+.rightReserved{
+   padding-left: 230px;
 }
+
+/* .yearReserved{
+    margin-left: 300px;
+} */
+
+.scrollToTop{
+    margin-left: 900px;
+}
+
 
 
 @media only screen and (max-width: 480px) {
