@@ -20,6 +20,10 @@
         display: flex;
         /* flex-direction: column; */
     }
+
+    .flexx{
+        display: flex;
+    }
     
     .flex2{
         display: flex;
@@ -190,7 +194,7 @@
 }
 
         /* 481px — 768px: iPads, Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     home1{
         background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
         min-height: 400px;
@@ -263,11 +267,12 @@
 
     .section3{
         height: 600px;
+        /* width: 800px; */
     }
     
     .divcontact{
         height: 480px;
-        width: 900px;
+        width: 85%px;
         background-color: white;
         margin: auto;
     }
@@ -290,25 +295,25 @@
       }
 
       .img2{
-        height: 250px;
+        height: 240px;
         margin-left: 30%;
     }
 
     footer{
         background: #033953;
         /* padding-bottom: 30px; */
-        height: 220px;
+        height: 260px;
     }
     
     .footercontainer{
-        /* background-color: blueviolet; */
-        height: 150px;
-        width: 1040px;
+        background-color: blueviolet;
+        height: 180px;
+        width: 80%;
         margin: auto;
     }
     
     .connectme{
-        margin-left: 235px;
+        margin-top: 15px;
     }
     
     .mt5{
@@ -316,19 +321,15 @@
     }
     
     .rightReserved{
-       padding-left: 230px;
+       padding-top: 20px;
+       padding-left: 10%;
     }
     
-    /* .yearReserved{
-        margin-left: 300px;
-    } */
-    
-    .scrollToTop{
-        margin-left: 79% ;
+    .flexx{
+        flex-direction: column;
     }
-    
-    .scrollUp{
-        width: 20px;
+    .flex2{
+        display: flex;
     }
 }
 

@@ -159,7 +159,7 @@ const Home = () => {
     <footer>
    
       <div className='footercontainer pt-3'>
-            <div className='flex1 mt5'>
+            <div className='flexx mt5'>
                   <div>
                     <h5 className='text-white'> Recent works</h5>
                     <Link  className='text-decoration-none text-white'>Real Estate</Link> <br />
