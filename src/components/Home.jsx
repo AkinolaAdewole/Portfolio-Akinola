@@ -57,7 +57,7 @@ const Home = () => {
       </div>
 
            
-           {/* Some of my Projects */}
+           {/* Some of my works */}
         
         <section className='section2 mb'>
 
@@ -65,7 +65,7 @@ const Home = () => {
                 
               <div className='mt' >
 
-                    <div className='flex1'>
+                    <div className='flexx1'>
                         <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="3000">
                                     <img src="" alt=""  className="card-img-top"/>
                                       <div className="card-body">
@@ -86,7 +86,7 @@ const Home = () => {
                      </div>
 
 
-                      <div className="flex1 mt">
+                      <div className="flexx1 mt">
                            <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="2000">
                                     <img src="" alt=""  className="card-img-top"/>
                                  <div className="card-body">

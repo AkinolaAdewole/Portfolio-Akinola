@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1025px){
+@media only screen and (min-width: 993px){
     .home1{
         background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
         min-height: 400px;
@@ -19,6 +19,10 @@
     .flex1{
         display: flex;
         /* flex-direction: column; */
+    }
+
+    .flexx1{
+        display: flex;
     }
 
     .flexx{
@@ -144,9 +148,6 @@
        padding-left: 230px;
     }
     
-    /* .yearReserved{
-        margin-left: 300px;
-    } */
     
     .scrollToTop{
         margin-left: 79% ;
@@ -159,7 +160,7 @@
 
 
         /* 769px — 1024px: Small screens, laptops */
-@media only screen  and (max-width:1024px){
+@media only screen  and (max-width:992px){
     home1{
         background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
         min-height: 400px;
@@ -191,7 +192,121 @@
         border-radius: 50px;
         margin-left: 50px;
     }
+
+    .flexx1{
+        flex-direction: column;
+    }
+
+    .projectcard{
+        height: 400px;
+        width: 85%;
+        max-width: 835px;
+     }
+
+    .textAlign{
+        text-align: center;
+    }
+
+    .mt{
+        margin-top: 20px;
+     }
+    
+     .mb{
+        margin-bottom: 40px;
+     }
+    
+     .m1{
+        margin-left: 8%;
+     }
+    
+     .m2{
+        margin-left: 8%;
+        margin-top: 20px;
+     }
+
+     .section3{
+        height: 600px;
+    }
+    
+    .divcontact{
+        height: 480px;
+        width: 900px;
+        background-color: white;
+        margin: auto;
+    }
+    .flex1{
+        flex-direction: column;
+    }
+    
+    .divh5{
+        font-size: 2.28rem;
+        line-height: 110%;
+    }
+    
+    .contact1{
+       /* background-color: wheat; */
+       height: 220px;
+       width: 450px;
+       margin-left: 100px;
+    }
+    
+    .contactme{
+        margin-top: 70px;
+        margin-left: 40px;
+     }
+    
+    .img2{
+        height: 250px;
+    }
+    
+    footer{
+        background: #033953;
+        /* padding-bottom: 30px; */
+        height: 260px;
+    }
+    
+    .footercontainer{
+        background-color: blueviolet;
+        height: 170px;
+        width: 85%;
+        margin-left: 9%;
+    }
+
+    .flexx{
+        flex-direction: column;
+    }
+
+    .connectme{
+        margin-top: 10px;
+    }
+    
+    .mt5{
+        margin-top: 15px;
+    }
+    
+    .rightReserved{
+       padding-top: 40px;
+    }
+    
+    
+    .scrollToTop{
+        margin-left: 70% ;
+    }
+
+    .flex2{
+        display: flex;
+    }
+    
+    .scrollUp{
+        width: 20px;
+    } 
 }
+
+
+
+
+
+
 
         /* 481px — 768px: iPads, Tablets */
 @media only screen and (max-width: 768px) {
@@ -241,7 +356,7 @@
     
      .projectcard{
         height: 400px;
-        width: 70%;
+        width: 85%;
         max-width: 635px;
      }
     
