@@ -2,6 +2,9 @@
     .home1{
         background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
         min-height: 400px;
+        min-width: 993px;
+        width: 100%;
+
     }
     
     .passion{
@@ -60,19 +63,30 @@
     
     
     .section2{
-        background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
+        /* background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%); */
+        background-color: aquamarine;
+        min-width: 990px;
+        width: 100%;
         outline: none;
         /* height: 2000px; */
     }
     
+    .works{
+        background-color: goldenrod;
+        height: 900px;
+        margin: auto;
+        /* width: 1200px; */
+        /* margin-left: 100px; */
+     }
     
      .projectcard{
         height: 26rem;
-        width: 32rem;
+        min-width:100px;
+        width: 65%;
      }
     
      .mt{
-        margin-top: 40px;
+        margin-top: 35px;
      }
     
      .mb{
@@ -80,11 +94,11 @@
      }
     
      .m1{
-        margin-left: 180px;
+        margin-left: 3%;
      }
     
      .m2{
-        margin-left: 20px;
+        margin-left: 10px;
      }
     
     .textAlign{
@@ -190,7 +204,11 @@
         height: 200px;
         width: 200px;
         border-radius: 50px;
-        margin-left: 50px;
+        margin-left: 110px;
+    }
+
+    .imgpadding{
+        margin-top: 40px;
     }
 
     .flexx1{
@@ -225,13 +243,14 @@
      }
 
      .section3{
-        height: 600px;
+        height: 650px;
     }
     
     .divcontact{
-        height: 480px;
-        width: 900px;
-        background-color: white;
+        /* background: green; */
+        height: 630px;
+        max-width: 980px;
+        width: 85%;
         margin: auto;
     }
     .flex1{
@@ -252,11 +271,12 @@
     
     .contactme{
         margin-top: 70px;
-        margin-left: 40px;
+        margin-left: 20%;
      }
     
     .img2{
-        height: 250px;
+        height: 230px;
+        margin-left: 35%;
     }
     
     footer{
@@ -266,7 +286,7 @@
     }
     
     .footercontainer{
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
         height: 170px;
         width: 85%;
         margin-left: 9%;
@@ -285,12 +305,23 @@
     }
     
     .rightReserved{
-       padding-top: 40px;
+       padding-top: 20px;
+       padding-left: 9%;
     }
     
     
     .scrollToTop{
-        margin-left: 70% ;
+        /* margin-left: 70% ; */
+        position: fixed;
+        background-color: #033953;
+        margin-left: 55% ;
+        bottom: 20px;
+        width: 50px;
+        right: 20px;
+        font-size: 20px;
+        height: 50px;
+        outline: none;
+        border-radius: 50%;
     }
 
     .flex2{

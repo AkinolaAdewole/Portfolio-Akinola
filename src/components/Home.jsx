@@ -64,48 +64,49 @@ const Home = () => {
                <div> <h3 className='textAlign pt-5'>Some of my works</h3> </div>
                 
               <div className='mt' >
+                      <div className='works container'>
+                          <div className='flexx1'>
+                              <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="3000">
+                                          <img src="" alt=""  className="card-img-top"/>
+                                            <div className="card-body">
+                                              <p class="card-text">
+                                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                              </p>
+                                            </div>
+                              </div>
 
-                    <div className='flexx1'>
-                        <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="3000">
-                                    <img src="" alt=""  className="card-img-top"/>
+                                  <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="3000">
+                                          <img src="" alt=""  className="card-img-top"/>
+                                          <div className="card-body">
+                                              <p class="card-text">
+                                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                              </p>
+                                          </div>
+                                  </div> 
+                          </div>
+
+
+                            <div className="flexx1 mt">
+                                <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="2000">
+                                          <img src="" alt=""  className="card-img-top"/>
                                       <div className="card-body">
-                                        <p class="card-text">
-                                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                                        </p>
+                                              <p class="card-text">
+                                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                              </p>
                                       </div>
-                        </div>
+                                </div>
 
-                            <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="3000">
-                                    <img src="" alt=""  className="card-img-top"/>
-                                    <div className="card-body">
-                                        <p class="card-text">
-                                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                                        </p>
-                                    </div>
-                            </div> 
-                     </div>
-
-
-                      <div className="flexx1 mt">
-                           <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="2000">
-                                    <img src="" alt=""  className="card-img-top"/>
-                                 <div className="card-body">
-                                        <p class="card-text">
-                                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                                        </p>
-                                 </div>
-                           </div>
-
-                            <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="2000">
-                                    <img src="" alt=""  className="card-img-top"/>
-                                  <div className="card-body">
-                                        <p class="card-text">
-                                          Some quick example text to build on the card title and make up the bulk of the card's content.
-                                        </p>
+                                  <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="2000">
+                                          <img src="" alt=""  className="card-img-top"/>
+                                        <div className="card-body">
+                                              <p class="card-text">
+                                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                                              </p>
+                                        </div>
                                   </div>
                             </div>
-                      </div>
 
+                      </div>
               </div>
 
         </section>
