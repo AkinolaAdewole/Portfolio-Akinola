@@ -8,6 +8,7 @@ import 'aos/dist/aos.css'
 import {BsWhatsapp} from 'react-icons/bs'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {AiOutlineMail}  from 'react-icons/ai'
+import {BiSolidToTop} from 'react-icons/bi'
 
 
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
                     <div>
                         <div className='aboutme'> 
                             <h5 className=''> 
+                              Hi, I am Akinola Adewole, a fullstack web developer
                               Welcome to my creative space where ideas come <br /> to life through design and innovation.
                             </h5>
                             <h5 className='mt-3'>I design and code beautifully and I love what I do.</h5>
@@ -178,8 +180,8 @@ const Home = () => {
             <div className='container rightreserved'>
               <p className='text-white'>&copy; {currentYear} Akinola. All rights reserved.</p>
 
-              <button>
-                <span>::Before</span>
+              <button onClick={scrollToTop}>
+                <span> < BiSolidToTop /></span>
               </button>
             </div>
       </div>

@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <div className='bg'>
           <nav className="navbar navbar-expand-lg navbar-light">
-              <Link className="navbar-brand logomargin" to="/">AKINOLA</Link>
+              <Link className="navbar-brand logomargin text-white" to="/" >AKINOLA</Link>
               
               <button
                 className="navbar-toggler"
