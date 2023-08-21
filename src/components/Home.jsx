@@ -61,7 +61,7 @@ const Home = () => {
         
         <section className='section2 mb'>
 
-               <div> <h3 className='textAlign pt-5'>Some of my projects</h3> </div>
+               <div> <h3 className='textAlign pt-5'>Some of my works</h3> </div>
                 
               <div className='mt' >
 
@@ -127,7 +127,7 @@ const Home = () => {
                     <div> <p className='textAlign'> I know you've got that amazing idea, contact me today. </p> </div>
 
 
-                    <div className='flex1 pt-5'>
+                    <div className='flex1 pt-4'>
 
                         <div className='contact1'>
                             <div className='contactme'>
