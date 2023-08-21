@@ -9,8 +9,8 @@ const NavBar = () => {
               <Link className="navbar-brand logomargin text-white" to="/" >AKINOLA</Link>
               
               <button
-                className="navbar-toggler"
-                style={{margingLeft:'150px'}}
+                className="navbar-toggler navButton"
+                // style={{margingLeft:'150px'}}
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarNavDropdown"
