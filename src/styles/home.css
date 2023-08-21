@@ -232,15 +232,17 @@
     }
 
     .section2{
-        background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
+        /* background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%); */
+        background-color: rebeccapurple;
         outline: none;
-        /* height: 2000px; */
+        max-width: 768px;
     }
     
     
      .projectcard{
         height: 400px;
-        width: 635px;
+        width: 70%;
+        max-width: 635px;
      }
     
      .mt{
@@ -267,31 +269,34 @@
 
     .section3{
         height: 600px;
-        /* width: 800px; */
+        min-width: 360px;
     }
     
     .divcontact{
-        height: 480px;
-        width: 85%px;
-        background-color: white;
-        margin: auto;
+        /* background-color: blue; */
+        min-width: 330px;;
+        height: 580px;
+        /* padding-left: 3%; */
+        /* background-color: white; */
+       
     }
+
     
     .divh5{
-        font-size: 2.28rem;
-        line-height: 110%;
+        font-size: 1.6rem;
+        line-height: 60%;
     }
 
     .contact1{
         /* background-color: wheat; */
         height: 220px;
-        width: 450px;
+        width: 220px;
         margin-left: 23%;
      }
      
      .contactme{
-         margin-top: 30px;
-         margin-left: 40px;
+         margin-top: 20px;
+         margin-left: 9%
       }
 
       .img2{
@@ -306,7 +311,7 @@
     }
     
     .footercontainer{
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
         height: 190px;
         width: 75%;
         margin-left: 9%;
@@ -323,7 +328,7 @@
     
     .rightReserved{
        padding-top: 20px;
-       padding-left: 10%;
+       padding-left: 9%;
     }
     
     .flexx{
@@ -334,8 +339,17 @@
     }
 
     .scrollToTop{
-        /* position: fixed; */
-        margin-left: 60% ;
+        position: fixed;
+        background-color: #033953;
+        margin-left: 55% ;
+        bottom: 20px;
+        width: 50px;
+        right: 20px;
+        font-size: 20px;
+        height: 50px;
+        outline: none;
+        border-radius: 50%;
+    
     }
     
     .scrollUp{

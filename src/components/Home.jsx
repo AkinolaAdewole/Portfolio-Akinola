@@ -179,7 +179,7 @@ const Home = () => {
 
 
                 {/* All right reserved */}
-            <div className='rightReserved flex2'>
+            <div className='btn rightReserved flex2'>
                    <p className='text-white'>&copy; {currentYear} Akinola. All rights reserved.</p>
 
                   <div onClick={scrollToTop} className='scrollToTop'>
