@@ -65,7 +65,8 @@
     .section2{
         /* background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%); */
         background-color: aquamarine;
-        min-width: 990px;
+        height: 1000px;
+        min-width: 980px;
         width: 100%;
         outline: none;
         /* height: 2000px; */
@@ -73,7 +74,7 @@
     
     .works{
         background-color: goldenrod;
-        height: 900px;
+        height: 400px;
         margin: auto;
         /* width: 1200px; */
         /* margin-left: 100px; */
@@ -94,7 +95,7 @@
      }
     
      .m1{
-        margin-left: 3%;
+        margin-left: 2%;
      }
     
      .m2{
@@ -146,7 +147,7 @@
     .footercontainer{
         /* background-color: blueviolet; */
         height: 150px;
-        width: 1040px;
+        width: 85%;
         margin: auto;
     }
     
@@ -159,12 +160,11 @@
     }
     
     .rightReserved{
-       padding-left: 230px;
+       padding-left: 7.2%;
     }
     
-    
     .scrollToTop{
-        margin-left: 79% ;
+        margin-left: 70% ;
     }
     
     .scrollUp{
