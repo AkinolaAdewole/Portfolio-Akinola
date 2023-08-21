@@ -307,9 +307,10 @@
     
     .footercontainer{
         background-color: blueviolet;
-        height: 180px;
-        width: 80%;
-        margin: auto;
+        height: 190px;
+        width: 75%;
+        margin-left: 9%;
+        /* margin-top: 2%; */
     }
     
     .connectme{
@@ -317,7 +318,7 @@
     }
     
     .mt5{
-        margin-top: 25px;
+        margin-top: 18px;
     }
     
     .rightReserved{
@@ -330,6 +331,15 @@
     }
     .flex2{
         display: flex;
+    }
+
+    .scrollToTop{
+        /* position: fixed; */
+        margin-left: 60% ;
+    }
+    
+    .scrollUp{
+        width: 20px;
     }
 }
 

@@ -183,7 +183,7 @@ const Home = () => {
                    <p className='text-white'>&copy; {currentYear} Akinola. All rights reserved.</p>
 
                   <div onClick={scrollToTop} className='scrollToTop'>
-                    <span> < BiSolidToTop  className=' text-white'/></span>
+                    <span> < BiSolidToTop  className=' text-white '/></span>
                   </div>
             </div>
 
