@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Element } from 'react-scroll';
+import { scroller } from 'react-scroll';
 import Home from './components/Home';
 import About from './components/About';
 import NavBar from './ReUsables/NavBar';
@@ -19,11 +19,12 @@ function App() {
   //   }
   // };
   
-  const scrollToSection = (sectionRef) => {
-    console.log('scrollToSection called with ref:', sectionRef);
-    if (sectionRef.current) {
-      sectionRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
+  const scrollToSection = (sectionName) => {
+    scroller.scrollTo(sectionName, {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart',
+    });
   };
   
 
@@ -31,12 +32,12 @@ function App() {
     <div className="App">
   
       <NavBar scrollToSection={scrollToSection} />
-      <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
-      </Routes>    
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+        </Routes>  
 
   
     </div>

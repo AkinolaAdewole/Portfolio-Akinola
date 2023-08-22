@@ -14,7 +14,6 @@ import {BiSolidToTop} from 'react-icons/bi'
 
 const Home = () => {
   const contact = useRef(null);
-  // console.log('Home component rendered');
 
   const currentYear = new Date().getFullYear();
 
@@ -34,7 +33,7 @@ const Home = () => {
 
   return (
     <>
-     <Element id='aboutme'>
+     <Element name='aboutme'>
           <div className='home1'>
               <div className='passion mx-auto'>
                 <div className=' '>
@@ -65,7 +64,7 @@ const Home = () => {
            
            {/* Some of my works */}
         
-  <Element id='works'>
+  <Element name='works'>
     <section className='section2 mb'>
 
              <div> <h3 className='textAlign pt-5'>Some of my works</h3> </div>
@@ -122,8 +121,8 @@ const Home = () => {
 
           {/* contact me for project*/}
 
-  <Element>
-          <section ref={contact} className='section3'>
+  <Element name='contact'>
+          <section className='section3'>
 
                 <div className='divcontact'>
 

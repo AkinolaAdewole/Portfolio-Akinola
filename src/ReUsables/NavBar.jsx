@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/navbar.css';
 
 const NavBar = ({scrollToSection}) => {
-  const contact = useRef(null);
-  // console.log('NavBar component rendered');
+ 
   return (
     <div className='bg'>
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -29,14 +28,14 @@ const NavBar = ({scrollToSection}) => {
                 <Link className="nav-link text-white" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to='#aboutme' onClick={() => scrollToSection('aboutme')}>
+                <Link className="nav-link text-white" to='#' onClick={() => scrollToSection('aboutme')}>
                   About me</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="#works" onClick={() => scrollToSection('works')}>Projects</Link>
+                <Link className="nav-link text-white" to="#" onClick={() => scrollToSection('works')}>Projects</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="#" onClick={() => scrollToSection(contact)}>Contact</Link>
+                <Link className="nav-link text-white" to="#" onClick={() => scrollToSection('contact')}>Contact</Link>
               </li>
             </ul>
           </div>
