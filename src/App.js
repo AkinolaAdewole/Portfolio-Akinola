@@ -10,12 +10,17 @@ import Projects from './components/Projects';
 function App() {
 
    // Function to handle smooth scroll to a section
-   const scrollToSection = (sectionName) => {
-    const sectionElement = document.getElementById(sectionName);
+   const scrollToSection = (sectionId) => {
+    console.log('Scrolling to section:', sectionId);
+    const sectionElement = document.getElementById(sectionId);
+    console.log('Section element:', sectionElement);
+  
     if (sectionElement) {
       sectionElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  
+  
 
   return (
     <div className="App">

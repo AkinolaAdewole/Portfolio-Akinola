@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { Element } from 'react-scroll';
 import '../styles/home.css'
@@ -13,6 +13,8 @@ import {BiSolidToTop} from 'react-icons/bi'
 
 
 const Home = () => {
+  const aboutme = useRef(null);
+  // console.log('Home component rendered');
 
   const currentYear = new Date().getFullYear();
 
@@ -21,6 +23,7 @@ const Home = () => {
       easing: 'ease-in-out-back'
     })
   },[]);
+
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -31,89 +34,90 @@ const Home = () => {
 
   return (
     <>
-      <div className='home1'  id='aboutme'>
-        <div className='passion mx-auto'>
-           <div className=' '>
-              <h4 className='text-center'>About me</h4>
-                <div className='row'>
-                  <div className='flex1 pt5'>
+     <Element ref={aboutme} id='aboutme'>
+          <div className='home1'>
+              <div className='passion mx-auto'>
+                <div className=' '>
+                    <h4 className='text-center'>About me</h4>
+                      <div className='row'>
+                        <div className='flex1 pt5'>
 
-                    <div>
-                        <div className='aboutme'> 
-                            <h5 className=''> 
-                              Hi, I am Akinola Adewole, a fullstack web developer. <br />
-                              Welcome to my creative space where ideas come <br /> to life through design and innovation.
-                            </h5>
-                            <h5 className='mt-3'>I design and code beautifully and I love what I do.</h5>
-                        </div>
-                    </div>
+                          <div>
+                              <div className='aboutme'> 
+                                  <h5 className=''> 
+                                    Hi, I am Akinola Adewole, a fullstack web developer. <br />
+                                    Welcome to my creative space where ideas come <br /> to life through design and innovation.
+                                  </h5>
+                                  <h5 className='mt-3'>I design and code beautifully and I love what I do.</h5>
+                              </div>
+                          </div>
 
-                      <div className='' data-aos="fade-left" data-aos-duration="3000" >
-                        <img className='img1 imgpadding' src={akinola}  />
+                            <div className='' data-aos="fade-left" data-aos-duration="3000" >
+                              <img className='img1 imgpadding' src={akinola}  />
+                            </div>
                       </div>
-                 </div>
+                      </div>
                 </div>
-           </div>
-        </div>
-      </div>
+              </div>
+            </div>
+     </Element>
 
            
            {/* Some of my works */}
         
-        <section className='section2 mb' id='works'>
+  <Element id='works'>
+    <section className='section2 mb'>
 
-               <div> <h3 className='textAlign pt-5'>Some of my works</h3> </div>
-                
-              <div className='mt' >
-                      <div className='container'>
-                          <div className='flexx1'>
-                              <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="3000">
-                                          <img src="" alt=""  className="card-img-top"/>
-                                            <div className="card-body">
-                                              <p class="card-text">
-                                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                                              </p>
-                                            </div>
-                              </div>
-
-                                  <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="3000">
-                                          <img src="" alt=""  className="card-img-top"/>
-                                          <div className="card-body">
-                                              <p class="card-text">
-                                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                                              </p>
-                                          </div>
-                                  </div> 
-                          </div>
-
-              </div>
-
-              <div className="container">
-                        <div className="flexx1 mt">
-                                  <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="2000">
-                                            <img src="" alt=""  className="card-img-top"/>
-                                        <div className="card-body">
-                                                <p class="card-text">
-                                                  Some quick example text to build on the card title and make up the bulk of the card's content.
-                                                </p>
-                                        </div>
+             <div> <h3 className='textAlign pt-5'>Some of my works</h3> </div>
+    
+         <div className='mt' >
+            <div className='container'>
+              <div className='flexx1'>
+                    <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="3000">
+                                <img src="" alt=""  className="card-img-top"/>
+                                  <div className="card-body">
+                                    <p class="card-text">
+                                      Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    </p>
                                   </div>
+                    </div>
 
-                                    <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="2000">
-                                            <img src="" alt=""  className="card-img-top"/>
-                                          <div className="card-body">
-                                                <p class="card-text">
-                                                  Some quick example text to build on the card title and make up the bulk of the card's content.
-                                                </p>
-                                          </div>
-                                    </div>
+                      <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="3000">
+                              <img src="" alt=""  className="card-img-top"/>
+                              <div className="card-body">
+                                  <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                  </p>
                               </div>
-                </div>
-
-
+                      </div> 
               </div>
+         </div>
 
-        </section>
+          <div className="container">
+              <div className="flexx1 mt">
+                        <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="2000">
+                                  <img src="" alt=""  className="card-img-top"/>
+                              <div className="card-body">
+                                      <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                      </p>
+                              </div>
+                        </div>
+
+                          <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="2000">
+                                  <img src="" alt=""  className="card-img-top"/>
+                                <div className="card-body">
+                                      <p class="card-text">
+                                        Some quick example text to build on the card title and make up the bulk of the card's content.
+                                      </p>
+                                </div>
+                          </div>
+                    </div>
+          </div>
+     </div>
+
+    </section>
+  </Element>
 
 
 
