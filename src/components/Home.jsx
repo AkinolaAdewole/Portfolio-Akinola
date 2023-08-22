@@ -142,7 +142,8 @@ const Home = () => {
                                 <h5 className='text-success'> or</h5>
 
                                 <h5 className='text-success'>
-                                  <Link to="https://wa.me/+2348144744865" className='text-success'> Click</Link>, let's chat on whatsapp to discuss
+                                  <Link to="https://wa.me/+2348144744865" target='_blank' 
+                                  className='text-success'> Click</Link>, let's chat on whatsapp to discuss
                                      <br /> further.
                                 </h5>
                             </div>
@@ -173,9 +174,9 @@ const Home = () => {
                     <div className='connectme'>
                       <h6 className='text-white'>Connect with me</h6>
                       <div>
-                        <Link to='https://wa.me/+2348144744865' className='text-success'> <BsWhatsapp /> </Link>
-                        <Link to='https://github.com/AkinolaAdewole' className='ms-2 text-success'><AiOutlineGithub /> </Link>
-                        <Link className='ms-2 text-success'> <AiOutlineMail /></Link>
+                        <Link to='https://wa.me/+2348144744865' target='_blank' className='text-success'> <BsWhatsapp /> </Link>
+                        <Link to='https://github.com/AkinolaAdewole' target='_blank' className='ms-2 text-success'><AiOutlineGithub /> </Link>
+                        <Link target='_blank' className='ms-2 text-success'> <AiOutlineMail /></Link>
                       </div>
                     </div>
             </div>
