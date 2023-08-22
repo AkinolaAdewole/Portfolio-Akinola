@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { Element } from 'react-scroll';
 import '../styles/home.css'
 import akinola from '../pics/akinola.jpg'
 import Whatsapp1 from '../pics/WhatsApp1.jpg'

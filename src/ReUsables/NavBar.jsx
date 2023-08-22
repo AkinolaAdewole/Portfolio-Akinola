@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/navbar.css';
 
-const NavBar = () => {
+const NavBar = (scrollToSection) => {
   return (
     <div className='bg'>
       <nav className="navbar navbar-expand-lg navbar-light">
