@@ -53,16 +53,24 @@ const NavBar = ({scrollToSection}) => {
               and innovative design to bring ideas to life on the web
             </p>
 
-            <div className=''>
-                <Link to='https://wa.me/+2348144744865' target='_blank' className=' text-white h5'> 
-                     <BsWhatsapp /> 
-                </Link>
-                <Link to='https://github.com/AkinolaAdewole?tab=repositories' target='_blank' className='text-white h5'>
-                      <AiOutlineGithub /> 
-                </Link>
-                <Link target='_blank' className='text-white h3'> 
-                      <AiOutlineMail />
-                </Link>
+            <div className='d-flex'>
+                <div className='btn'>
+                    <Link to='https://wa.me/+2348144744865' target='_blank' className='text-white h5'> 
+                        <BsWhatsapp /> 
+                    </Link>
+                </div>
+
+                <div className='btn'>
+                    <Link to='https://github.com/AkinolaAdewole?tab=repositories' target='_blank' className='text-white h5'>
+                          <AiOutlineGithub /> 
+                    </Link>
+                </div>
+
+                <div className='btn'>
+                    <Link target='_blank' className='text-white h5'> 
+                          <AiOutlineMail />
+                    </Link>
+                </div>
             </div>
           </div>
     </div>
