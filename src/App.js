@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 
 function App() {
 
+     // using id (JavaScript method)
    // Function to handle smooth scroll to a section
   //  const scrollToSection = (sectionId) => {
   //   const sectionElement = document.getElementById(sectionId);
@@ -21,7 +22,7 @@ function App() {
   
   const scrollToSection = (sectionName) => {
     scroller.scrollTo(sectionName, {
-      duration: 800,
+      duration: 500,
       delay: 0,
       smooth: 'easeInOutQuart',
     });

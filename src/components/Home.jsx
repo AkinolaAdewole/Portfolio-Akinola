@@ -13,7 +13,6 @@ import {BiSolidToTop} from 'react-icons/bi'
 
 
 const Home = () => {
-  const contact = useRef(null);
 
   const currentYear = new Date().getFullYear();
 
