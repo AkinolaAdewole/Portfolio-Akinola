@@ -36,6 +36,11 @@
     .navmargin{
         margin-left: 300px;
     }
+
+    .intro{
+        padding-top: 50px ;
+        padding-left:135px;
+    }
     
   }
 
@@ -67,8 +72,20 @@
     .navpadding{
         padding-left: 150px;
     }
+
+    .intro{
+        padding-top: 50px ;
+        padding-left:75px;
+    }
   }
 
+  @media only screen and (max-width: 993px) {
+    .intro{
+        /* background-color: blue; */
+        padding-top: 50px ;
+        padding-left:15px;
+    }
+  }
 
   @media only screen  and (max-width:768px){
     .logomargin{
