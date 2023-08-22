@@ -30,7 +30,7 @@
     }
 
     .navpadding{
-        padding-left: 450px;
+        padding-left: 230px;
     }
     
     .navmargin{
@@ -56,7 +56,7 @@
     }
 
     .navButton{
-        margin-left: 150px;
+        margin-left: 140px;
     }
 
 
@@ -65,16 +65,17 @@
     }
 
     .navpadding{
-        padding-left: 450px;
+        padding-left: 150px;
     }
   }
+
 
   @media only screen  and (max-width:768px){
     .logomargin{
         margin-left: 10%;
     }
     .navButton{
-        margin-left: 150px;
+        margin-left: 40px;
     }
   }
 

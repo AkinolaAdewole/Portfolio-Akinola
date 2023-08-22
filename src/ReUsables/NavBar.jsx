@@ -9,7 +9,7 @@ const NavBar = () => {
         <Link className="navbar-brand logomargin text-white" to="/">AKINOLA</Link>
 
         <button
-          className="navbar-toggler navButton"
+          className="navbar-toggler text-white navButton"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavDropdown"
@@ -17,10 +17,10 @@ const NavBar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon text-white"></span>
         </button>
 
-        <div className="container">
+        <div className="container navpadding">
           <div className="collapse navbar-collapse navpadding" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item active">
