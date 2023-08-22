@@ -11,9 +11,8 @@ function App() {
 
    // Function to handle smooth scroll to a section
    const scrollToSection = (sectionId) => {
-    console.log('Scrolling to section:', sectionId);
     const sectionElement = document.getElementById(sectionId);
-    console.log('Section element:', sectionElement);
+    // console.log('Section element:', sectionElement);
   
     if (sectionElement) {
       sectionElement.scrollIntoView({ behavior: 'smooth' });

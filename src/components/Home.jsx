@@ -120,51 +120,48 @@ const Home = () => {
   </Element>
 
 
-
-
-
           {/* contact me for project*/}
 
-            <section className='section3'>
+  <Element id='contact'>
+          <section className='section3'>
 
-              <div className='divcontact'>
+                <div className='divcontact'>
 
-                    <div className='pt-3' > 
-                          <h5 className='textAlign divh5'> Have an interesting project? </h5> 
-                    </div>
+                      <div className='pt-3' > 
+                            <h5 className='textAlign divh5'> Have an interesting project? </h5> 
+                      </div>
 
-                    <div> <p className='textAlign'> I know you've got that amazing idea, contact me today. </p> </div>
-
-
-                    <div className='flex1 pt-4'>
-
-                        <div className='contact1'>
-                            <div className='contactme'>
-                                <h5 className='text-success'>
-                                    Call +2348144744865
-                                </h5>
-
-                                <h5 className='text-success'> or</h5>
-
-                                <h5 className='text-success'>
-                                  <Link to="https://wa.me/+2348144744865" target='_blank' 
-                                  className='text-success'> Click</Link>, let's chat on whatsapp to discuss
-                                     <br /> further.
-                                </h5>
-                            </div>
-                        </div>
+                      <div> <p className='textAlign'> I know you've got that amazing idea, contact me today. </p> </div>
 
 
-                        <div className=''> 
-                            <img className='img2' src={Whatsapp1}  alt="" />
-                        </div>
+                      <div className='flex1 pt-4'>
 
-                    </div>
-              </div>
-              
-            </section>
+                          <div className='contact1'>
+                              <div className='contactme'>
+                                  <h5 className='text-success'>
+                                      Call +2348144744865
+                                  </h5>
+
+                                  <h5 className='text-success'> or</h5>
+
+                                  <h5 className='text-success'>
+                                    <Link to="https://wa.me/+2348144744865" target='_blank' 
+                                    className='text-success'> Click</Link>, let's chat on whatsapp to discuss
+                                      <br /> further.
+                                  </h5>
+                              </div>
+                          </div>
 
 
+                          <div className=''> 
+                              <img className='img2' src={Whatsapp1}  alt="" />
+                          </div>
+
+                      </div>
+                </div>
+
+          </section>
+  </Element>
 
     <footer>
    

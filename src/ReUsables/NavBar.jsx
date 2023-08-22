@@ -32,10 +32,10 @@ const NavBar = ({scrollToSection}) => {
                   About me</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="#works">Projects</Link>
+                <Link className="nav-link text-white" to="#works" onClick={() => scrollToSection('works')}>Projects</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-white" to="#contact">Contact</Link>
+                <Link className="nav-link text-white" to="#contact" onClick={() => scrollToSection('contact')}>Contact</Link>
               </li>
             </ul>
           </div>
