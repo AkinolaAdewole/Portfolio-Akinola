@@ -1,6 +1,10 @@
 import React,{useRef} from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/navbar.css';
+import {BsWhatsapp} from 'react-icons/bs'
+import {AiOutlineGithub} from 'react-icons/ai'
+import {AiOutlineMail}  from 'react-icons/ai'
+import {BiSolidToTop} from 'react-icons/bi'
 
 const NavBar = ({scrollToSection}) => {
  
@@ -42,12 +46,18 @@ const NavBar = ({scrollToSection}) => {
         </div>
       </nav>
 
-      <div className='container' style={{ paddingTop: "50px" }}>
+      <div className='container' style={{ paddingTop: "50px", paddingLeft:"135px" }}>
         <h5 className='text-white'>Akinola Adewole</h5>
         <p className='text-white'>
-          Hi, I am a fullstack web developer Crafting digital experiences through elegant code and
-          innovative design to bring ideas to life on the web
+          Hi, I am a fullstack web developer crafting digital experiences through elegant code <br /> 
+           and innovative design to bring ideas to life on the web
         </p>
+
+        <div>
+            <Link to='https://wa.me/+2348144744865' target='_blank' className='text-white btn h5'> <BsWhatsapp /> </Link>
+            <Link to='https://github.com/AkinolaAdewole' target='_blank' className='ms-2 text-white h5'><AiOutlineGithub /> </Link>
+            <Link target='_blank' className='ms-2 text-white h5'> <AiOutlineMail /></Link>
+        </div>
       </div>
     </div>
   );
