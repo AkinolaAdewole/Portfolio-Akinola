@@ -175,7 +175,7 @@ const Home = () => {
                       <h6 className='text-white'>Connect with me</h6>
                       <div>
                         <Link to='https://wa.me/+2348144744865' target='_blank' className='text-success'> <BsWhatsapp /> </Link>
-                        <Link to='https://github.com/AkinolaAdewole' target='_blank' className='ms-2 text-success'><AiOutlineGithub /> </Link>
+                        <Link to='https://github.com/AkinolaAdewole?tab=repositories' target='_blank' className='ms-2 text-success'><AiOutlineGithub /> </Link>
                         <Link target='_blank' className='ms-2 text-success'> <AiOutlineMail /></Link>
                       </div>
                     </div>
