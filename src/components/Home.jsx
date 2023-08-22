@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <>
-      <div className='home1' >
+      <div className='home1'  id='aboutme'>
         <div className='passion mx-auto'>
            <div className=' '>
               <h4 className='text-center'>About me</h4>
@@ -40,7 +40,7 @@ const Home = () => {
                     <div>
                         <div className='aboutme'> 
                             <h5 className=''> 
-                              Hi, I am Akinola Adewole, a fullstack web developer
+                              Hi, I am Akinola Adewole, a fullstack web developer. <br />
                               Welcome to my creative space where ideas come <br /> to life through design and innovation.
                             </h5>
                             <h5 className='mt-3'>I design and code beautifully and I love what I do.</h5>
@@ -59,7 +59,7 @@ const Home = () => {
            
            {/* Some of my works */}
         
-        <section className='section2 mb'>
+        <section className='section2 mb' id='works'>
 
                <div> <h3 className='textAlign pt-5'>Some of my works</h3> </div>
                 

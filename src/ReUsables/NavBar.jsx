@@ -28,13 +28,13 @@ const NavBar = () => {
                         <Link className="nav-link text-white" to="/">Home</Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link text-white" to="/about">About</Link>
+                        <Link className="nav-link text-white" to="#about">About</Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link text-white" to="/projects">Projects</Link>
+                        <Link className="nav-link text-white" to="#works">Projects</Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link text-white" to="/contact">Contact</Link>
+                        <Link className="nav-link text-white" to="#contact">Contact</Link>
                       </li>
                     </ul>
                   </div>
