@@ -4,6 +4,11 @@ import { Element } from 'react-scroll';
 import '../styles/home.css'
 import akinola from '../pics/akinola.jpg'
 import Whatsapp1 from '../pics/WhatsApp1.jpg'
+import prompt1 from '../cardpics/prompt1.png';
+import finance from '../cardpics/finance.png';
+import quizApp from '../cardpics/quizApp.png';
+import tictactoe from '../cardpics/tictactoe.png';
+import mernAuth from '../cardpics/mernAuth.png';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import {BsWhatsapp} from 'react-icons/bs'
@@ -68,11 +73,11 @@ const Home = () => {
 
              <div> <h3 className='textAlign pt-5'>Some of my works</h3> </div>
     
-         <div className='mt' >
+         <div className='mt aos-animate' data-aos="fade-up" data-aos-duration="3000" >
             <div className='container'>
               <div className='flexx1'>
-                    <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="3000">
-                                <img src="" alt=""  className="card-img-top"/>
+                    <div className=' card projectcard shadow m1'>
+                                <img src={prompt1} alt=""  className="card-img-top"/>
                                   <div className="card-body">
                                     <p class="card-text">
                                       Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -80,8 +85,8 @@ const Home = () => {
                                   </div>
                     </div>
 
-                      <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="3000">
-                              <img src="" alt=""  className="card-img-top"/>
+                      <div className=' card projectcard shadow m2'>
+                              <img src={mernAuth} alt=""  className="card-img-top"/>
                               <div className="card-body">
                                   <p class="card-text">
                                     Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -89,12 +94,12 @@ const Home = () => {
                               </div>
                       </div> 
               </div>
-         </div>
+           </div>
 
-          <div className="container">
+           <div className="container">
               <div className="flexx1 mt">
-                        <div className=' card projectcard m1' data-aos="fade-up" data-aos-duration="2000">
-                                  <img src="" alt=""  className="card-img-top"/>
+                        <div className=' card projectcard shadow m1'>
+                                  <img src={quizApp} alt=""  className="card-img-top"/>
                               <div className="card-body">
                                       <p class="card-text">
                                         Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -102,8 +107,8 @@ const Home = () => {
                               </div>
                         </div>
 
-                          <div className=' card projectcard m2' data-aos="fade-up" data-aos-duration="2000">
-                                  <img src="" alt=""  className="card-img-top"/>
+                          <div className=' card projectcard shadow m2'>
+                                  <img src={tictactoe} alt=""  className="card-img-top"/>
                                 <div className="card-body">
                                       <p class="card-text">
                                         Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -111,7 +116,7 @@ const Home = () => {
                                 </div>
                           </div>
                     </div>
-          </div>
+           </div>
      </div>
 
     </section>
