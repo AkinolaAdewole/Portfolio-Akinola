@@ -53,25 +53,30 @@ const NavBar = ({scrollToSection}) => {
               and innovative design to bring ideas to life on the web
             </p>
 
-            <div className='d-flex'>
-                <div className='btn'>
-                    <Link to='https://wa.me/+2348144744865' target='_blank' className='text-white h5'> 
-                        <BsWhatsapp /> 
-                    </Link>
+                <div className='d-flex'>
+                    <div className='btn'>
+                        <Link to='https://wa.me/+2348144744865' target='_blank' className='text-white h5'> 
+                            <BsWhatsapp /> 
+                        </Link>
+                    </div>
+
+                    <div className='btn'>
+                        <Link to='https://github.com/AkinolaAdewole?tab=repositories' target='_blank' className='text-white h5'>
+                              <AiOutlineGithub /> 
+                        </Link>
+                    </div>
+
+                    <div className='btn'>
+                        <Link to='https://mail.google.com/mail/u/0/#inbox?compose=new' target='_blank' className='text-white h5'> 
+                              <AiOutlineMail />
+                        </Link>
+                    </div>
                 </div>
 
-                <div className='btn'>
-                    <Link to='https://github.com/AkinolaAdewole?tab=repositories' target='_blank' className='text-white h5'>
-                          <AiOutlineGithub /> 
-                    </Link>
+                <div className='shadow-lg'>
+                    <div className='btn btn-success rounded-0 text-white' to="#" onClick={() => scrollToSection('works')}>Check my works</div>
                 </div>
-
-                <div className='btn'>
-                    <Link to='https://mail.google.com/mail/u/0/#inbox?compose=new' target='_blank' className='text-white h5'> 
-                          <AiOutlineMail />
-                    </Link>
-                </div>
-            </div>
+                
           </div>
     </div>
   );
