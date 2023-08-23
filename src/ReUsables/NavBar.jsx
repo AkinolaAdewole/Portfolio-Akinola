@@ -67,7 +67,7 @@ const NavBar = ({scrollToSection}) => {
                 </div>
 
                 <div className='btn'>
-                    <Link target='_blank' className='text-white h5'> 
+                    <Link to='https://mail.google.com/mail/u/0/#inbox?compose=new' target='_blank' className='text-white h5'> 
                           <AiOutlineMail />
                     </Link>
                 </div>
