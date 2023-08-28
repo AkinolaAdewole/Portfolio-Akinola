@@ -1,16 +1,14 @@
 FROM node:18.17
 
-COPY package.json /portfolio/
-COPY src /portfolio/src
-COPY public /portfolio/
-
-
-
-
-
 
 WORKDIR /app
 
+COPY package.json .
+
 RUN npm install
+
+COPY . .
+
+EXPOSE 3000
 CMD ["npm", "start"]
 
