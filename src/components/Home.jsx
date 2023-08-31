@@ -101,18 +101,31 @@ const Home = () => {
                         <div className=' card projectcard shadow m1'>
                                   <img src={quizApp} alt=""  className="card-img-top"/>
                               <div className="card-body">
-                                      <p class="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                                      </p>
+                                      <div class="card-text">
+                                        <h6>Quiz app</h6>
+                                        <p> React, Redux, CSS3, Bootstrap5</p>
+                                      </div>
+                                      <div className='card-action'>
+                                        <Link to='https://akinolaquizworld.netlify.app' target='_blank' className='text-success'>
+                                          View site
+                                        </Link>
+                                      </div>
                               </div>
                         </div>
 
                           <div className=' card projectcard shadow m2'>
                                   <img src={tictactoe} alt=""  className="card-img-top"/>
                                 <div className="card-body">
-                                      <p class="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                                      </p>
+                                      <div class="card-text">
+                                        <h6>TICTACTOE GAME</h6>
+                                         <p>
+                                           JavaScript, HTML5, CSS3
+                                         </p>
+                                      </div>
+                                    
+                                      <div className='card-action'>
+                                        <Link to='https://tictactoe-a.netlify.app' target='_blank' className='text-success'>view site</Link>
+                                      </div>
                                 </div>
                           </div>
                     </div>
