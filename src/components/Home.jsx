@@ -5,7 +5,7 @@ import '../styles/home.css'
 import akinola from '../pics/akinola.jpg'
 import Whatsapp1 from '../pics/WhatsApp1.jpg'
 import prompt1 from '../cardpics/prompt1.png';
-import finance from '../cardpics/finance.png';
+import finlog from '../cardpics/finlog.png'
 import quizApp from '../cardpics/quizApp.png';
 import tictactoe from '../cardpics/tictactoe.png';
 import mernAuth from '../cardpics/mernAuth.png';
@@ -76,21 +76,30 @@ const Home = () => {
          <div className='mt aos-animate' data-aos="fade-up" data-aos-duration="3000" >
             <div className='container'>
               <div className='flexx1'>
-                    <div className=' card projectcard shadow m1'>
-                                <img src={prompt1} alt=""  className="card-img-top"/>
-                                  <div className="card-body">
-                                    <p class="card-text">
-                                      Some quick example text to build on the card title and make up the bulk of the card's content.
-                                    </p>
+                               <div className=' card projectcard shadow m1'>
+                                            <img src={quizApp} alt=""  className="card-img-top"/>
+                                        <div className="card-body">
+                                                <div class="card-text">
+                                                  <h6>Quiz app</h6>
+                                                  <p> React, Redux, CSS3, Bootstrap5</p>
+                                                </div>
+                                                <div className='card-action'>
+                                                  <Link to='https://akinolaquizworld.netlify.app' target='_blank' className='text-success'>
+                                                    View site
+                                                  </Link>
+                                                </div>
+                                        </div>
                                   </div>
-                    </div>
 
                       <div className=' card projectcard shadow m2'>
-                              <img src={mernAuth} alt=""  className="card-img-top"/>
+                              <img src={prompt1} alt=""  className="card-img-top"/>
                               <div className="card-body">
-                                  <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                                  </p>
+                                  <div class="card-text">
+                                    <h6>Promptopia</h6>
+                                    <Link to='https://promptopia-five-olive.vercel.app/' target='_blank' className='text-success'>
+                                      View site
+                                    </Link>
+                                  </div>
                               </div>
                       </div> 
               </div>
@@ -98,33 +107,33 @@ const Home = () => {
 
            <div className="container">
               <div className="flexx1 mt">
-                        <div className=' card projectcard shadow m1'>
-                                  <img src={quizApp} alt=""  className="card-img-top"/>
-                              <div className="card-body">
-                                      <div class="card-text">
-                                        <h6>Quiz app</h6>
-                                        <p> React, Redux, CSS3, Bootstrap5</p>
-                                      </div>
-                                      <div className='card-action'>
-                                        <Link to='https://akinolaquizworld.netlify.app' target='_blank' className='text-success'>
-                                          View site
-                                        </Link>
-                                      </div>
-                              </div>
-                        </div>
+                  <div className=' card projectcard shadow m1'>
+                                    <img src={finlog} alt=""  className="card-img-top imgtop1"/>
+                                     <div className="card-body">
+                                        <div class="card-text">
+                                          <h6>Finance Logger</h6>
+                                          <div> TypeScript, CSS3</div>
+
+                                          <div className='card-action'>
+                                            <Link to='https://finlog.netlify.app/' target='_blank' className='text-success'>view site</Link>
+                                          </div>
+                                        </div>
+                                     </div>
+                    </div>
+                        
 
                           <div className=' card projectcard shadow m2'>
                                   <img src={tictactoe} alt=""  className="card-img-top"/>
                                 <div className="card-body">
                                       <div class="card-text">
                                         <h6>TICTACTOE GAME</h6>
-                                         <p>
+                                         <div>
                                            JavaScript, HTML5, CSS3
-                                         </p>
-                                      </div>
-                                    
-                                      <div className='card-action'>
+                                         </div>
+
+                                     <div className='card-action'>
                                         <Link to='https://tictactoe-a.netlify.app' target='_blank' className='text-success'>view site</Link>
+                                     </div>
                                       </div>
                                 </div>
                           </div>

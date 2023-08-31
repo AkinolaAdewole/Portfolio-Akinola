@@ -63,8 +63,6 @@
     
     
     .section2{
-        /* background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%); */
-        /* background-color: aquamarine; */
         height: 1000px;
         min-width: 980px;
         width: 100%;
@@ -76,8 +74,6 @@
         /* background-color: goldenrod; */
         height: 400px;
         margin: auto;
-        /* width: 1200px; */
-        /* margin-left: 100px; */
      }
     
      .projectcard{
@@ -136,6 +132,10 @@
     
     .img2{
         height: 250px;
+    }
+
+    .imgtop1{
+        height: 75%;
     }
     
     footer{
