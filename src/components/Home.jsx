@@ -76,26 +76,32 @@ const Home = () => {
          <div className='mt aos-animate' data-aos="fade-up" data-aos-duration="3000" >
             <div className='container'>
               <div className='flexx1'>
-                               <div className=' card projectcard shadow m1'>
-                                            <img src={quizApp} alt=""  className="card-img-top"/>
-                                        <div className="card-body">
-                                                <div class="card-text">
-                                                  <h6>Quiz app</h6>
-                                                  <p> React, Redux, CSS3, Bootstrap5</p>
-                                                </div>
-                                                <div className='card-action'>
-                                                  <Link to='https://akinolaquizworld.netlify.app' target='_blank' className='text-success'>
-                                                    View site
-                                                  </Link>
-                                                </div>
-                                        </div>
+                    
+                   <div className=' card projectcard shadow m2'>
+                                  <img src={tictactoe} alt=""  className="card-img-top imgtop1"/>
+                          <div className="card-body">
+                            <div class="card-text">
+                                        <h6>Tictactoe</h6>
+                                         <div>
+                                           JavaScript, HTML5, CSS3
+                                         </div>
+
+                                  <div className='card-action'>
+                                    <Link to='https://tictactoe-a.netlify.app' target='_blank' className='text-success'>
+                                      View site
+                                    </Link>
                                   </div>
+                            </div>
+                          </div>
+                    </div>
+                                  
 
                       <div className=' card projectcard shadow m2'>
-                              <img src={prompt1} alt=""  className="card-img-top"/>
+                              <img src={prompt1} alt=""  className="card-img-top imgtop1"/>
                               <div className="card-body">
                                   <div class="card-text">
                                     <h6>Promptopia</h6>
+                                    <div>NextJs, NodeJs, TailwindCSS </div>
                                     <Link to='https://promptopia-five-olive.vercel.app/' target='_blank' className='text-success'>
                                       View site
                                     </Link>
@@ -121,22 +127,22 @@ const Home = () => {
                                      </div>
                     </div>
                         
+                    <div className=' card projectcard shadow m1'>
+                            <img src={quizApp} alt=""  className="card-img-top imgtop1"/>
+                              <div className="card-body">
+                                    <div class="card-text">
+                                                  <h6>Quiz app</h6>
+                                                  <div> React, Redux, CSS3, Bootstrap5</div>
 
-                          <div className=' card projectcard shadow m2'>
-                                  <img src={tictactoe} alt=""  className="card-img-top"/>
-                                <div className="card-body">
-                                      <div class="card-text">
-                                        <h6>TICTACTOE GAME</h6>
-                                         <div>
-                                           JavaScript, HTML5, CSS3
-                                         </div>
+                                        <div className='card-action'>
+                                          <Link to='https://akinolaquizworld.netlify.app' target='_blank' className='text-success'>
+                                            View site
+                                          </Link>
+                                       </div>
+                                  </div>                                               
+                              </div>
+                    </div>
 
-                                     <div className='card-action'>
-                                        <Link to='https://tictactoe-a.netlify.app' target='_blank' className='text-success'>view site</Link>
-                                     </div>
-                                      </div>
-                                </div>
-                          </div>
                     </div>
            </div>
      </div>
