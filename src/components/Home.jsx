@@ -77,7 +77,7 @@ const Home = () => {
             <div className='container'>
               <div className='flexx1'>
                     
-                   <div className=' card projectcard shadow m2'>
+                   <div className=' card projectcard shadow m1'>
                                   <img src={tictactoe} alt=""  className="card-img-top imgtop1"/>
                           <div className="card-body">
                             <div class="card-text">
@@ -127,7 +127,7 @@ const Home = () => {
                                      </div>
                     </div>
                         
-                    <div className=' card projectcard shadow m1'>
+                    <div className=' card projectcard shadow m2'>
                             <img src={quizApp} alt=""  className="card-img-top imgtop1"/>
                               <div className="card-body">
                                     <div class="card-text">
