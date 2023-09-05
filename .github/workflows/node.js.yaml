@@ -1,0 +1,41 @@
+name: CI/CD for React App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the React app
+        run: npm run build
+
+      - name: Deploy to production
+        run: |
+          # Add your deployment steps here
+          # For example, you can use SCP, FTP, or any other deployment method
+          # to transfer the build files to your production server.
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          branch: gh-pages
+          folder: build
+
+      - name: Cleanup
+        run: rm -rf node_modules
+
