@@ -75,20 +75,58 @@ const Home = () => {
              <div> <h3 className='textAlign pt-5'>Some of my works</h3> </div>
     
          <div className='mt aos-animate' data-aos="fade-up" data-aos-duration="3000" >
-            <div className='container'>
+         <div className='container'>
               <div className='flexx1'>
                     
                    <div className=' card projectcard shadow m1'>
-                                  <img src={tictactoe} alt=""  className="card-img-top imgtop1"/>
+                                  <img src={refine} alt=""  className="card-img-top imgtop1"/>
                           <div className="card-body">
                             <div class="card-text">
-                                        <h6>Tictactoe</h6>
+                                        <h6>Rent Master</h6>
                                          <div>
-                                           JavaScript, HTML5, CSS3
+                                           Refine, React, Node.js, Google Auth, MongoDB, Material UI
                                          </div>
 
                                   <div className='card-action'>
+                                    <Link to='https://rentmaster.netlify.app' target='_blank' className='text-success'>
+                                      View site
+                                    </Link>
+                                  </div>
+                            </div>
+                          </div>
+                    </div>
+                                  
+
+                      <div className=' card projectcard shadow m2'>
+                              <img src={tictactoe} alt=""  className="card-img-top imgtop1"/>
+                              <div className="card-body">
+                                  <div class="card-text">
+                                    <h6>Tictactoe</h6>
+                                    <div>JavaScript, HTML5, CSS3</div>
                                     <Link to='https://tictactoe-a.netlify.app' target='_blank' className='text-success'>
+                                      View site
+                                    </Link>
+                                  </div>
+                              </div>
+                      </div> 
+              </div>
+           </div>
+
+
+            <div className='container'>
+              <div className='flexx1 mt'>
+                    
+                   <div className=' card projectcard shadow m1'>
+                                  <img src={chat1} alt=""  className="card-img-top imgtop1"/>
+                          <div className="card-body">
+                            <div class="card-text">
+                                        <h6>Medical Chat App</h6>
+                                         <div>
+                                           React.js, Node.js, CSS3
+                                         </div>
+
+                                  <div className='card-action'>
+                                    <Link to='https://medchatpro.netlify.app' target='_blank' className='text-success'>
                                       View site
                                     </Link>
                                   </div>
@@ -102,8 +140,8 @@ const Home = () => {
                               <div className="card-body">
                                   <div class="card-text">
                                     <h6>Promptopia</h6>
-                                    <div>NextJs, NodeJs, TailwindCSS </div>
-                                    <Link to='https://promptopia-five-olive.vercel.app/' target='_blank' className='text-success'>
+                                    <div>Next.js, NodeJs, CSS3, TailwindCSS </div>
+                                    <Link to='https://promptopia-five-olive.vercel.app' target='_blank' className='text-success'>
                                       View site
                                     </Link>
                                   </div>
