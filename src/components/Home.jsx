@@ -8,7 +8,8 @@ import prompt1 from '../cardpics/prompt1.png';
 import finlog from '../cardpics/finlog.png'
 import quizApp from '../cardpics/quizApp.png';
 import tictactoe from '../cardpics/tictactoe.png';
-import mernAuth from '../cardpics/mernAuth.png';
+import chat1 from '../cardpics/chat1.png'
+import refine from '../cardpics/refine.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import {BsWhatsapp} from 'react-icons/bs'
