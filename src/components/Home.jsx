@@ -56,7 +56,7 @@ const Home = () => {
                               </div>
                           </div>
 
-                            <div className='' data-aos="fade-left" data-aos-duration="3000" >
+                            <div className='' data-aos="fade-left" data-aos-duration="2000" >
                               <img className='img1 imgpadding' src={akinola}  />
                             </div>
                       </div>
@@ -74,43 +74,57 @@ const Home = () => {
 
              <div> <h3 className='textAlign pt-5'>Some of my works</h3> </div>
     
-         <div className='mt aos-animate' data-aos="fade-up" data-aos-duration="3000" >
-         <div className='container'>
-              <div className='flexx1'>
-                    
-                   <div className=' card projectcard shadow m1'>
-                                  <img src={refine} alt=""  className="card-img-top imgtop1"/>
-                          <div className="card-body">
-                            <div class="card-text">
-                                        <h6>Rent Master</h6>
-                                         <div>
-                                           Refine, React, Node.js, Google Auth, MongoDB, Material UI
-                                         </div>
+         <div className='mt aos-animate' data-aos="fade-up" data-aos-duration="2000" >
+              
+              <div className='container'>
+                      
+                      <div className='flexx1'>
+                            
+                          <div className=' card projectcard shadow m1'>
+                                          <img src={refine} alt=""  className="card-img-top imgtop1"/>
+                                  <div className="card-body">
+                                    <div class="card-text">
+                                                <h6>Rent Master</h6>
+                                                <div>
+                                                  Refine, Node.js, Google Auth, MongoDB, Material UI
+                                                </div>
 
-                                  <div className='card-action'>
-                                    <Link to='https://rentmaster.netlify.app' target='_blank' className='text-success'>
-                                      View site
-                                    </Link>
+                                          <div className='card-action'>
+                                            <div>
+                                                <Link to='https://rentmaster.netlify.app' target='_blank' className='text-success'>
+                                                  View site
+                                                </Link>
+
+                                                <Link to="https://github.com/AkinolaAdewole/Real-Estate---MERNSTACK"
+                                                  target='_blank' className=' ms-2 text-success'>
+                                                        Github repo
+                                                  </Link>
+                                            </div>
+                                          </div>
+                                    </div>
                                   </div>
                             </div>
-                          </div>
-                    </div>
-                                  
+                                          
 
-                      <div className=' card projectcard shadow m2'>
-                              <img src={tictactoe} alt=""  className="card-img-top imgtop1"/>
-                              <div className="card-body">
-                                  <div class="card-text">
-                                    <h6>Tictactoe</h6>
-                                    <div>JavaScript, HTML5, CSS3</div>
-                                    <Link to='https://tictactoe-a.netlify.app' target='_blank' className='text-success'>
-                                      View site
-                                    </Link>
-                                  </div>
-                              </div>
-                      </div> 
-              </div>
-           </div>
+                              <div className=' card projectcard shadow m2'>
+                                      <img src={tictactoe} alt=""  className="card-img-top imgtop1"/>
+                                      <div className="card-body">
+                                          <div class="card-text">
+                                            <h6>Tictactoe</h6>
+                                            <div>JavaScript, HTML5, CSS3</div>
+                                            <Link to='https://tictactoe-a.netlify.app' target='_blank' className='text-success'>
+                                              View site
+                                            </Link>
+
+                                            <Link to='https://github.com/AkinolaAdewole/JavaScript-TicTacToe' target='_blank'
+                                              className='text-success ps-2'>
+                                                  Github repo
+                                              </Link>
+                                          </div>
+                                      </div>
+                              </div> 
+                      </div>
+                  </div>
 
 
             <div className='container'>
@@ -129,6 +143,11 @@ const Home = () => {
                                     <Link to='https://medchatpro.netlify.app' target='_blank' className='text-success'>
                                       View site
                                     </Link>
+
+                                    <Link to='https://github.com/AkinolaAdewole/Chat_App_for_Health_Practitioners' target='_blank'
+                                              className='text-success ps-2'>
+                                                  Github repo
+                                      </Link>
                                   </div>
                             </div>
                           </div>
@@ -140,10 +159,15 @@ const Home = () => {
                               <div className="card-body">
                                   <div class="card-text">
                                     <h6>Promptopia</h6>
-                                    <div>Next.js, NodeJs, CSS3, TailwindCSS </div>
-                                    <Link to='https://promptopia-five-olive.vercel.app' target='_blank' className='text-success'>
-                                      View site
-                                    </Link>
+                                    <div>Next.js, Node.js, CSS3, TailwindCSS </div>
+                                        <Link to='https://promptopia-five-olive.vercel.app' target='_blank' className='text-success'>
+                                          View site
+                                        </Link>
+
+                                        <Link to='https://github.com/AkinolaAdewole/Next--Promptopia' target='_blank'
+                                              className='text-success ps-2'>
+                                                      Github repo
+                                          </Link>
                                   </div>
                               </div>
                       </div> 
@@ -161,6 +185,11 @@ const Home = () => {
 
                                           <div className='card-action'>
                                             <Link to='https://finlog.netlify.app/' target='_blank' className='text-success'>view site</Link>
+
+                                            <Link to='https://github.com/AkinolaAdewole/Typescript-Finance-Logger' target='_blank'
+                                              className='text-success ps-2'>
+                                                  Github repo
+                                            </Link>
                                           </div>
                                         </div>
                                      </div>
@@ -177,10 +206,15 @@ const Home = () => {
                                           <Link to='https://akinolaquizworld.netlify.app' target='_blank' className='text-success'>
                                             View site
                                           </Link>
+
+                                          <Link to='https://github.com/AkinolaAdewole/React-QuizApp' target='_blank'
+                                              className='text-success ps-2'>
+                                                  Github repo
+                                          </Link>
                                        </div>
                                   </div>                                               
                               </div>
-                    </div>
+                      </div>
 
                     </div>
            </div>
@@ -239,7 +273,7 @@ const Home = () => {
             <div className='flexx mt5'>
                   <div>
                     <h5 className='text-white'> Recent works</h5>
-                    <Link  className='text-decoration-none text-white'>Real Estate</Link> <br />
+                    <Link  className='text-decoration-none text-white'>Rent master</Link> <br />
                     <Link className='text-decoration-none text-white'>Promptopia</Link>
                   </div>
 
