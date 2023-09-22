@@ -48,7 +48,7 @@ const Home = () => {
                           <div>
                               <div className='aboutme'> 
                                   <h5 className=''> 
-                                    Hi, I am Akinola Adewole, a fullstack web developer. <br />
+                                    Hi, I am Akinola Adewole, a full stack web developer. <br />
                                     Welcome to my creative space where ideas come <br /> to life through design and innovation.
                                   </h5>
                                   <h5 className='mt-3'>I design and code beautifully and I love what I do.</h5>

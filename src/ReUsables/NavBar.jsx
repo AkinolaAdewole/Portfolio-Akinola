@@ -48,10 +48,16 @@ const NavBar = ({scrollToSection}) => {
 
           <div className='intro container'>
             <h5 className='text-white'>Akinola Adewole</h5>
-            <p className='text-white'>
-              Hi, I am a fullstack web developer crafting digital experiences through elegant code <br /> 
-              and innovative design to bring ideas to life on the web
-            </p>
+              <div>
+                    <p className='text-white'>
+                    Hi, I am a full stack web developer crafting digital experiences through elegant code <br /> 
+                    and innovative design to bring ideas to life on the web
+                  </p>
+                  <p className='text-white'>
+                  With a solid foundation in various programming languages and frameworks, I relish the 
+                   <br /> challenge of transforming complex concepts into user-friendly web applications.
+                  </p>
+              </div>
 
                 <div className='d-flex'>
                     <div className='btn'>
