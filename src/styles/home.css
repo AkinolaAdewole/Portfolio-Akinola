@@ -699,10 +699,18 @@
 }
 
    .section2{
-    background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
+    /* background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%); */
     outline: none;
+    width: 395px;
+    margin-bottom: 30px;
+    background-color: green;
     /* height: 2000px; */
+
     }
+    /* .c1{
+        margin-left: 5px;
+    } */
+
 
     .img1{
         /* height: 200px;
@@ -745,7 +753,7 @@
 
     .section3{
         height: 800px;
-        width: 85%;
+        width: 80%;
     }
 
     .contact1{
@@ -774,7 +782,7 @@
     .scrollToTop{
         position: fixed;
         background-color: #033953;
-        margin-left: 35% ;
+        margin-left: 25% ;
         bottom: 20px;
         width: 50px;
         right: 20px;

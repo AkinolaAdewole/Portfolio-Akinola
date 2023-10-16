@@ -76,7 +76,7 @@ const Home = () => {
     
          <div className='mt aos-animate' data-aos="fade-up" data-aos-duration="2000" >
               
-              <div className='container'>
+              <div className='container c1'>
                       
                       <div className='flexx1'>
                             
