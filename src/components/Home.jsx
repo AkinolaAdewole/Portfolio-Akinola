@@ -8,8 +8,10 @@ import prompt1 from '../cardpics/prompt1.png';
 import finlog from '../cardpics/finlog.png'
 import quizApp from '../cardpics/quizApp.png';
 import tictactoe from '../cardpics/tictactoe.png';
-import chat1 from '../cardpics/chat1.png'
-import refine from '../cardpics/refine.png'
+import chat1 from '../cardpics/chat1.png';
+import refine from '../cardpics/refine.png';
+import spacex from '../cardpics/spacex.png';
+import youtube from '../cardpics/youtube.png';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import {BsWhatsapp} from 'react-icons/bs'
@@ -105,7 +107,6 @@ const Home = () => {
                                   </div>
                             </div>
                                           
-
                               <div className=' card projectcard shadow m2'>
                                       <img src={tictactoe} alt=""  className="card-img-top imgtop1"/>
                                       <div className="card-body">
@@ -128,6 +129,53 @@ const Home = () => {
 
 
             <div className='container'>
+              <div className='flexx1 mt'>
+                    
+                   <div className=' card projectcard shadow m1'>
+                                  <img src={youtube} alt=""  className="card-img-top imgtop1"/>
+                          <div className="card-body">
+                            <div class="card-text">
+                                        <h6>Youtube Clone</h6>
+                                         <div>
+                                           React, Material UI, CSS3
+                                         </div>
+
+                                  <div className='card-action'>
+                                    <Link to='https://videovibe.netlify.app' target='_blank' className='text-success'>
+                                      View site
+                                    </Link>
+
+                                    <Link to='https://github.com/AkinolaAdewole/React__YoutubeClone' target='_blank'
+                                              className='text-success ps-2'>
+                                                  Github repo
+                                      </Link>
+                                  </div>
+                            </div>
+                          </div>
+                    </div>
+                                  
+
+                      <div className=' card projectcard shadow m2'>
+                              <img src={prompt1} alt=""  className="card-img-top imgtop1"/>
+                              <div className="card-body">
+                                  <div class="card-text">
+                                    <h6>Space X cloned website</h6>
+                                    <div>Next.js, Node.js, CSS3, TailwindCSS </div>
+                                        <Link to='https://promptopia-five-olive.vercel.app' target='_blank' className='text-success'>
+                                          View site
+                                        </Link>
+
+                                        <Link to='https://github.com/AkinolaAdewole/Next--Promptopia' target='_blank'
+                                              className='text-success ps-2'>
+                                                      Github repo
+                                          </Link>
+                                  </div>
+                              </div>
+                      </div> 
+              </div>
+           </div>
+
+           <div className='container'>
               <div className='flexx1 mt'>
                     
                    <div className=' card projectcard shadow m1'>
@@ -291,7 +339,7 @@ const Home = () => {
 
                 {/* All right reserved */}
             <div className='btn rightReserved flex2'>
-                   <p className='text-white'>&copy; {currentYear} Akinola. All rights reserved.</p>
+                   <p className='text-white'>&copy; {currentYear} Akinola Adewole. All rights reserved.</p>
 
                   <div onClick={scrollToTop} className='scrollToTop'>
                     <span> < BiSolidToTop  className=' text-white '/></span>
