@@ -156,11 +156,11 @@ const Home = () => {
                                   
 
                       <div className=' card projectcard shadow m2'>
-                              <img src={prompt1} alt=""  className="card-img-top imgtop1"/>
+                              <img src={spacex} alt=""  className="card-img-top imgtop1"/>
                               <div className="card-body">
                                   <div class="card-text">
                                     <h6>Space X cloned website</h6>
-                                    <div>Next.js, Node.js, CSS3, TailwindCSS </div>
+                                    <div> JavaScript, CSS3, HTML5 </div>
                                         <Link to='https://promptopia-five-olive.vercel.app' target='_blank' className='text-success'>
                                           View site
                                         </Link>
