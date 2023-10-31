@@ -679,6 +679,11 @@
 
 
 @media only screen and (max-width: 480px) {
+    
+* :after, :before {
+    box-sizing: border-box;
+}
+
     .home1{
         background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%);
         height: 700px;
@@ -701,10 +706,10 @@
    .section2{
     /* background: linear-gradient(180deg, #FFFFFF 24.36%, #F7F7F7 93.67%); */
     outline: none;
-    width: 395px;
+    /* width: 480px; */
     margin-bottom: 30px;
-    background-color: green;
-    /* height: 2000px; */
+    /* background-color: green; */
+    height: 3850px;
 
     }
     /* .c1{

@@ -68,6 +68,8 @@ const Home = () => {
             </div>
      </Element>
 
+
+
            
            {/* Some of my works */}
         
@@ -161,11 +163,11 @@ const Home = () => {
                                   <div class="card-text">
                                     <h6>Space X cloned website</h6>
                                     <div> JavaScript, CSS3, HTML5 </div>
-                                        <Link to='https://promptopia-five-olive.vercel.app' target='_blank' className='text-success'>
+                                        <Link to='https://spacexhomep.netlify.app' target='_blank' className='text-success'>
                                           View site
                                         </Link>
 
-                                        <Link to='https://github.com/AkinolaAdewole/Next--Promptopia' target='_blank'
+                                        <Link to='https://github.com/AkinolaAdewole/SpaceX_Clone' target='_blank'
                                               className='text-success ps-2'>
                                                       Github repo
                                           </Link>
