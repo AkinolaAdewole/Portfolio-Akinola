@@ -161,7 +161,7 @@ const Home = () => {
                               <img src={spacex} alt=""  className="card-img-top imgtop1"/>
                               <div className="card-body">
                                   <div class="card-text">
-                                    <h6>Space X cloned website</h6>
+                                    <h6>Space X Website Clone</h6>
                                     <div> JavaScript, CSS3, HTML5 </div>
                                         <Link to='https://spacexhomep.netlify.app' target='_blank' className='text-success'>
                                           View site
