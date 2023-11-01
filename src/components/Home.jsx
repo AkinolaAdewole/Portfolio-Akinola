@@ -54,7 +54,9 @@ const Home = () => {
                                     Hi, I am Akinola Adewole, a full stack web developer. <br />
                                     Welcome to my creative space where ideas come <br /> to life through design and innovation.
                                   </h5>
-                                  <h5 className='mt-3'>I design and code beautifully and I love what I do.</h5>
+                                  <h5 className='mt-3'>I love exploring new technologies and continuously
+                                          honing my skills to stay at the forefront of the industry.
+                                  </h5>
                               </div>
                           </div>
 
