@@ -90,7 +90,7 @@ const Home = () => {
                                     <div class="card-text">
                                                 <h6>Rent Master</h6>
                                                 <div>
-                                                  Refine, Node.js, Google Auth, MongoDB, Material UI
+                                                  React Typescript, Node.js, Google Auth, MongoDB, Material UI
                                                 </div>
 
                                           <div className='card-action'>
@@ -209,7 +209,7 @@ const Home = () => {
                               <div className="card-body">
                                   <div class="card-text">
                                     <h6>Promptopia</h6>
-                                    <div>Next.js, Node.js, CSS3, TailwindCSS </div>
+                                    <div>Next.js, CSS3, TailwindCSS </div>
                                         <Link to='https://promptopia-five-olive.vercel.app' target='_blank' className='text-success'>
                                           View site
                                         </Link>
