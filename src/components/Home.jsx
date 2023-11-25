@@ -325,8 +325,8 @@ const Home = () => {
             <div className='flexx mt5'>
                   <div>
                     <h5 className='text-white'> Recent works</h5>
-                    <Link  className='text-decoration-none text-white'>Rent master</Link> <br />
-                    <Link className='text-decoration-none text-white'>Promptopia</Link>
+                    <Link  className='text-decoration-none text-white'>Youtube Clone</Link> <br />
+                    <Link className='text-decoration-none text-white'>Space X Clone</Link>
                   </div>
 
                     <div className='connectme'>
